@@ -1,102 +1,197 @@
-import Image from "next/image";
+'use client';
+
+import { useState, useEffect } from 'react';
+import { AttendanceRecord, AttendanceStats, FilterOptions } from '@/types/attendance';
+import {
+  processAttendanceData,
+  filterAttendanceData,
+  getBranchesFromData,
+  getSessionsFromData,
+  getDaysFromData,
+  getScannedCounts,
+} from '@/utils/attendance';
+import DashboardCharts from '@/components/DashboardCharts';
+import AttendanceFilters from '@/components/AttendanceFilters';
+import StatsSummary from '@/components/StatsSummary';
+import { Download, FileText } from 'lucide-react';
 
 export default function Home() {
-  return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const [attendanceData, setAttendanceData] = useState<AttendanceRecord[]>([]);
+  const [filteredData, setFilteredData] = useState<AttendanceRecord[]>([]);
+  const [stats, setStats] = useState<AttendanceStats>({
+    total: 0,
+    byBranch: {},
+    bySession: {},
+    byDay: {},
+    sessionAttendance: {},
+  });
+  const [filters, setFilters] = useState<FilterOptions>({ showScannedOnly: true });
+  const [loading, setLoading] = useState(true);
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  // Load attendance data
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const response = await fetch('/api/attendance');
+        const rawData = await response.json();
+        
+        // Use the raw data directly - no need for sample data generation
+        setAttendanceData(rawData);
+        setFilteredData(rawData);
+        setStats(processAttendanceData(rawData));
+      } catch (error) {
+        console.error('Error loading attendance data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadData();
+  }, []);
+
+  // Apply filters
+  useEffect(() => {
+    const filtered = filterAttendanceData(attendanceData, filters);
+    setFilteredData(filtered);
+    setStats(processAttendanceData(filtered));
+  }, [attendanceData, filters]);
+
+  const availableBranches = getBranchesFromData(attendanceData);
+  const availableSessions = getSessionsFromData(attendanceData);
+  const availableDays = getDaysFromData(attendanceData);
+  const scannedCounts = getScannedCounts(attendanceData);
+
+  const exportReport = () => {
+    const reportData = {
+      summary: {
+        totalAttendance: stats.total,
+        reportDate: new Date().toISOString(),
+        filters: filters,
+      },
+      statistics: stats,
+      attendanceRecords: filteredData,
+    };
+
+    const blob = new Blob([JSON.stringify(reportData, null, 2)], {
+      type: 'application/json',
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `attendance-report-${new Date().toISOString().split('T')[0]}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-600 mx-auto"></div>
+          <p className="mt-4 text-lg text-gray-600">Loading attendance data...</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
+      <header className="bg-white shadow-sm border-b">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-3xl font-bold text-gray-900">
+                Student Orientation 2025 7th Attendance Report
+              </h1>
+              <p className="mt-1 text-sm text-gray-500">
+                Comprehensive attendance tracking and analytics
+              </p>
+            </div>
+            <div className="flex space-x-3">
+              <button
+                onClick={exportReport}
+                className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                <Download className="h-4 w-4" />
+                <span>Export Report</span>
+              </button>
+              <div className="flex items-center space-x-2 px-4 py-2 bg-green-100 text-green-800 rounded-lg">
+                <FileText className="h-4 w-4" />
+                <span className="font-medium">{stats.total} Total Records</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Filters */}
+        <AttendanceFilters
+          filters={filters}
+          onFiltersChange={setFilters}
+          availableBranches={availableBranches}
+          availableSessions={availableSessions}
+          availableDays={availableDays}
+        />
+
+        {/* Statistics Summary */}
+        <div className="mt-8">
+          <StatsSummary stats={stats} scannedCounts={scannedCounts} />
+        </div>
+
+        {/* Charts */}
+        <div className="mt-8">
+          <DashboardCharts stats={stats} />
+        </div>
+
+        {/* Additional Details */}
+        <div className="mt-8 bg-white p-6 rounded-lg shadow-lg">
+          <h3 className="text-lg font-semibold mb-4">Detailed Breakdown</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <h4 className="font-medium text-gray-700 mb-2">Top Branches</h4>
+              <div className="space-y-2">
+                {Object.entries(stats.byBranch)
+                  .sort(([, a], [, b]) => (b as number) - (a as number))
+                  .slice(0, 5)
+                  .map(([branch, count]) => (
+                    <div key={branch} className="flex justify-between">
+                      <span className="text-sm text-gray-600">{branch}</span>
+                      <span className="text-sm font-medium">{count} students</span>
+                    </div>
+                  ))}
+              </div>
+            </div>
+            <div>
+              <h4 className="font-medium text-gray-700 mb-2">Session Breakdown</h4>
+              <div className="space-y-2">
+                {Object.entries(stats.bySession)
+                  .sort(([, a], [, b]) => (b as number) - (a as number))
+                  .slice(0, 4)
+                  .map(([session, count]) => (
+                    <div key={session} className="flex justify-between">
+                      <span className="text-sm text-gray-600 capitalize">{session}</span>
+                      <span className="text-sm font-medium">{count as number} students</span>
+                    </div>
+                  ))}
+              </div>
+            </div>
+          </div>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+
+      {/* Footer */}
+      <footer className="bg-white border-t mt-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <div className="text-center text-sm text-gray-500">
+            <p>Student Orientation 2025 - Attendance Report System</p>
+            <p className="mt-1">Generated on {new Date().toLocaleDateString()}</p>
+          </div>
+        </div>
       </footer>
     </div>
   );
