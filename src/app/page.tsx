@@ -9,11 +9,16 @@ import {
   getSessionsFromData,
   getDaysFromData,
   getScannedCounts,
+  calculateRetentionAnalytics,
+  calculateGrowthMetrics,
+  RetentionAnalytics,
+  GrowthMetrics,
 } from '@/utils/attendance';
 import DashboardCharts from '@/components/DashboardCharts';
 import AttendanceFilters from '@/components/AttendanceFilters';
 import StatsSummary from '@/components/StatsSummary';
-import { Download, FileText } from 'lucide-react';
+import RetentionAnalyticsComponent from '@/components/RetentionAnalytics';
+import { Download, FileText, BarChart3, TrendingUp } from 'lucide-react';
 
 export default function Home() {
   const [attendanceData, setAttendanceData] = useState<AttendanceRecord[]>([]);
@@ -25,8 +30,23 @@ export default function Home() {
     byDay: {},
     sessionAttendance: {},
   });
+  const [retentionAnalytics, setRetentionAnalytics] = useState<RetentionAnalytics>({
+    totalRegistered: 0,
+    totalAttended: 0,
+    totalAbsent: 0,
+    attendanceRate: 0,
+    absenteeRate: 0,
+    retentionBySession: {},
+    retentionByDay: {},
+    progressiveRetention: [],
+  });
+  const [growthMetrics, setGrowthMetrics] = useState<GrowthMetrics>({
+    dailyGrowth: [],
+    sessionGrowth: {},
+  });
   const [filters, setFilters] = useState<FilterOptions>({ showScannedOnly: true });
   const [loading, setLoading] = useState(true);
+  const [activeTab, setActiveTab] = useState<'overview' | 'analytics'>('overview');
 
   // Load attendance data
   useEffect(() => {
@@ -39,6 +59,8 @@ export default function Home() {
         setAttendanceData(rawData);
         setFilteredData(rawData);
         setStats(processAttendanceData(rawData));
+        setRetentionAnalytics(calculateRetentionAnalytics(rawData));
+        setGrowthMetrics(calculateGrowthMetrics(rawData));
       } catch (error) {
         console.error('Error loading attendance data:', error);
       } finally {
@@ -54,6 +76,8 @@ export default function Home() {
     const filtered = filterAttendanceData(attendanceData, filters);
     setFilteredData(filtered);
     setStats(processAttendanceData(filtered));
+    setRetentionAnalytics(calculateRetentionAnalytics(filtered));
+    setGrowthMetrics(calculateGrowthMetrics(filtered));
   }, [attendanceData, filters]);
 
   const availableBranches = getBranchesFromData(attendanceData);
@@ -127,6 +151,40 @@ export default function Home() {
         </div>
       </header>
 
+      {/* Tab Navigation */}
+      <div className="bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav className="flex space-x-8">
+            <button
+              onClick={() => setActiveTab('overview')}
+              className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+                activeTab === 'overview'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              <div className="flex items-center space-x-2">
+                <BarChart3 className="h-4 w-4" />
+                <span>Overview & Charts</span>
+              </div>
+            </button>
+            <button
+              onClick={() => setActiveTab('analytics')}
+              className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+                activeTab === 'analytics'
+                  ? 'border-blue-500 text-blue-600'
+                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              <div className="flex items-center space-x-2">
+                <TrendingUp className="h-4 w-4" />
+                <span>Retention & Growth Analytics</span>
+              </div>
+            </button>
+          </nav>
+        </div>
+      </div>
+
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Filters */}
@@ -138,17 +196,32 @@ export default function Home() {
           availableDays={availableDays}
         />
 
-        {/* Statistics Summary */}
-        <div className="mt-8">
-          <StatsSummary stats={stats} scannedCounts={scannedCounts} />
-        </div>
+        {/* Tab Content */}
+        {activeTab === 'overview' ? (
+          <>
+            {/* Statistics Summary */}
+            <div className="mt-8">
+              <StatsSummary stats={stats} scannedCounts={scannedCounts} />
+            </div>
 
-        {/* Charts */}
-        <div className="mt-8">
-          <DashboardCharts stats={stats} />
-        </div>
+            {/* Charts */}
+            <div className="mt-8">
+              <DashboardCharts stats={stats} />
+            </div>
+          </>
+        ) : (
+          <>
+            {/* Retention Analytics */}
+            <div className="mt-8">
+              <RetentionAnalyticsComponent 
+                retentionData={retentionAnalytics} 
+                growthData={growthMetrics} 
+              />
+            </div>
+          </>
+        )}
 
-        {/* Additional Details */}
+        {/* Additional Details - Show on both tabs */}
         <div className="mt-8 bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-lg font-semibold mb-4">Detailed Breakdown</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
