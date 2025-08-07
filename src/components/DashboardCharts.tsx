@@ -54,7 +54,11 @@ export default function DashboardCharts({ stats }: DashboardChartsProps) {
               cx="50%"
               cy="50%"
               labelLine={false}
-              label={({ name, percent }) => `${name} ${((percent || 0) * 100).toFixed(0)}%`}
+              label={({ name, percent }) => {
+                const percentage = (percent || 0) * 100;
+                // Only show label if segment is 5% or larger
+                return percentage >= 5 ? `${name} ${percentage.toFixed(0)}%` : '';
+              }}
               outerRadius={80}
               fill="#8884d8"
               dataKey="value"
@@ -63,9 +67,23 @@ export default function DashboardCharts({ stats }: DashboardChartsProps) {
                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
               ))}
             </Pie>
-            <Tooltip />
+            <Tooltip formatter={(value, name) => [`${value} students`, name]} />
           </PieChart>
         </ResponsiveContainer>
+        {/* Legend for small segments */}
+        <div className="mt-4 grid grid-cols-2 gap-1 text-xs">
+          {branchData.map((entry, index) => (
+            <div key={entry.name} className="flex items-center">
+              <div 
+                className="w-3 h-3 rounded-full mr-2" 
+                style={{ backgroundColor: COLORS[index % COLORS.length] }}
+              ></div>
+              <span className="text-gray-600 truncate">
+                {entry.name}: {entry.value} ({((entry.value / branchData.reduce((sum, item) => sum + item.value, 0)) * 100).toFixed(1)}%)
+              </span>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* Session Distribution */}

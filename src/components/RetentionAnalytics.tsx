@@ -156,7 +156,11 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
                 cx="50%"
                 cy="50%"
                 labelLine={false}
-                label={({ name, value, percent }) => `${name}: ${value} (${((percent || 0) * 100).toFixed(1)}%)`}
+                label={({ name, value, percent }) => {
+                  const percentage = (percent || 0) * 100;
+                  // Only show label if segment is 8% or larger (since this is usually just 2 segments)
+                  return percentage >= 8 ? `${name}: ${value} (${percentage.toFixed(1)}%)` : '';
+                }}
                 outerRadius={80}
                 fill="#8884d8"
                 dataKey="value"
@@ -165,7 +169,7 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
                   <Cell key={`cell-${index}`} fill={entry.color} />
                 ))}
               </Pie>
-              <Tooltip />
+              <Tooltip formatter={(value, name) => [`${value} students`, `${name}`]} />
             </PieChart>
           </ResponsiveContainer>
           <div className="flex justify-center mt-4 space-x-6">
