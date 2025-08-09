@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Student Orientation 2025 7th Attendance Report",
+  title: "Student Orientation 2025 Attendance Report",
   description: "Comprehensive attendance tracking and analytics dashboard for Student Orientation 2025",
 };
 

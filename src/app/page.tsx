@@ -128,7 +128,7 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl font-bold text-gray-900">
-                Student Orientation 2025 7th Attendance Report
+                Student Orientation 2025 Attendance Report
               </h1>
               <p className="mt-1 text-sm text-gray-500">
                 Comprehensive attendance tracking and analytics

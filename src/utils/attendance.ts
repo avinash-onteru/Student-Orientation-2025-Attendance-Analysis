@@ -69,8 +69,9 @@ export function filterAttendanceData(
       if (!foundDay) return false;
     }
     
-    // Filter by scanned only (default behavior - show only scanned records unless explicitly disabled)
-    const showScannedOnly = filters.showScannedOnly !== false; // Default to true
+
+    // Filter by scanned only (default behavior - show all records unless explicitly enabled)
+    const showScannedOnly = filters.showScannedOnly === true; // Default to false
     if (showScannedOnly) {
       const hasScannedData = record.scanned && Object.keys(record.scanned).length > 0;
       if (!hasScannedData) return false;
