@@ -30,12 +30,12 @@ const AttendanceFilters = ({
   };
 
   const clearFilters = () => {
-    onFiltersChange({ showScannedOnly: true });
+    onFiltersChange({ showScannedOnly: false });
   };
 
   const hasActiveFilters = Object.entries(filters).some(
     ([key, value]) => key !== 'showScannedOnly' && value !== undefined && value !== ''
-  ) || filters.showScannedOnly === false;
+  ) || filters.showScannedOnly === true;
 
   return (
     <div className="bg-white p-6 rounded-lg shadow-lg border">
@@ -74,7 +74,7 @@ const AttendanceFilters = ({
               <label className="flex items-center space-x-2 cursor-pointer">
                 <input
                   type="checkbox"
-                  checked={filters.showScannedOnly !== false}
+                  checked={filters.showScannedOnly === true}
                   onChange={(e) => updateFilter('showScannedOnly', e.target.checked)}
                   className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                 />

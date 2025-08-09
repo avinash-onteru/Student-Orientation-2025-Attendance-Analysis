@@ -44,7 +44,7 @@ export default function Home() {
     dailyGrowth: [],
     sessionGrowth: {},
   });
-  const [filters, setFilters] = useState<FilterOptions>({ showScannedOnly: true });
+  const [filters, setFilters] = useState<FilterOptions>({ showScannedOnly: false });
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<'overview' | 'analytics'>('overview');
 

@@ -1,17 +1,14 @@
 'use client';
 
 import { useState } from 'react';
-import { FilterOptions, TimeOfDay } from '@/types/attendance';
-import { getTimeOfDayLabel } from '@/utils/attendance';
-import { Filter, X, Clock, Building, CheckCircle } from 'lucide-react';
+import { FilterOptions } from '@/types/attendance';
+import { Filter, X, Building, CheckCircle } from 'lucide-react';
 
 interface AttendanceFiltersProps {
   filters: FilterOptions;
   onFiltersChange: (filters: FilterOptions) => void;
   availableBranches: string[];
 }
-
-const TIME_OF_DAY_OPTIONS: TimeOfDay[] = ['morning', 'noon', 'afternoon'];
 
 const AttendanceFilters = ({ 
   filters, 
@@ -28,12 +25,12 @@ const AttendanceFilters = ({
   };
 
   const clearFilters = () => {
-    onFiltersChange({ showScannedOnly: true });
+    onFiltersChange({ showScannedOnly: false });
   };
 
   const hasActiveFilters = Object.entries(filters).some(
     ([key, value]) => key !== 'showScannedOnly' && value !== undefined && value !== ''
-  ) || filters.showScannedOnly === false;
+  ) || filters.showScannedOnly === true;
 
   return (
     <div className="bg-white p-6 rounded-lg shadow-lg border">
@@ -72,7 +69,7 @@ const AttendanceFilters = ({
               <label className="flex items-center space-x-2 cursor-pointer">
                 <input
                   type="checkbox"
-                  checked={filters.showScannedOnly !== false}
+                  checked={filters.showScannedOnly === true}
                   onChange={(e) => updateFilter('showScannedOnly', e.target.checked)}
                   className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                 />
@@ -100,25 +97,6 @@ const AttendanceFilters = ({
                 ))}
               </select>
             </div>
-
-            <div className="space-y-2">
-              <label className="flex items-center space-x-2 text-sm font-medium text-gray-700">
-                <Clock className="h-4 w-4" />
-                <span>Time of Day</span>
-              </label>
-              <select
-                value={filters.timeOfDay || ''}
-                onChange={(e) => updateFilter('timeOfDay', e.target.value)}
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
-              >
-                <option value="">All Times</option>
-                {TIME_OF_DAY_OPTIONS.map((timeOfDay) => (
-                  <option key={timeOfDay} value={timeOfDay}>
-                    {getTimeOfDayLabel(timeOfDay)}
-                  </option>
-                ))}
-              </select>
-            </div>
           </div>
         </div>
       )}
@@ -132,18 +110,6 @@ const AttendanceFilters = ({
               <button
                 onClick={() => updateFilter('branch', undefined)}
                 className="ml-2 text-blue-600 hover:text-blue-800"
-              >
-                ×
-              </button>
-            </span>
-          )}
-          {filters.timeOfDay && (
-            <span className="inline-flex items-center px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
-              <Clock className="h-3 w-3 mr-1" />
-              Time: {filters.timeOfDay}
-              <button
-                onClick={() => updateFilter('timeOfDay', undefined)}
-                className="ml-2 text-green-600 hover:text-green-800"
               >
                 ×
               </button>
