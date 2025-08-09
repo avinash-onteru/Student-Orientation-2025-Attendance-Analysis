@@ -4,8 +4,15 @@
     "title": "shazil Abdul Rahman",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:25.564"
   },
   {
     "code": "11785",
@@ -13,7 +20,7 @@
     "subtitle": "CSE",
     "extras": [],
     "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "timestamp": "2025-08-07T14:35:21.747"
   },
   {
     "code": "JUIRMALI477202501",
@@ -24,11 +31,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:52:34.999"
+    "timestamp": "2025-08-09T11:43:38.259"
   },
   {
     "code": "JUIRSRILANKA93202501",
@@ -39,11 +50,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:37:32.073"
+    "timestamp": "2025-08-09T11:48:27.994"
   },
   {
     "code": "JUUG1202510750",
@@ -54,11 +69,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:13.483"
+    "timestamp": "2025-08-09T11:44:06.111"
   },
   {
     "code": "JUUG25BTECH",
@@ -70,13 +89,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:21.221"
+    "timestamp": "2025-08-09T11:39:47.533"
   },
   {
     "code": "JUUG25BTECH10033",
@@ -91,8 +112,15 @@
     "title": "JAGRITA GHOSH",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:14.055"
   },
   {
     "code": "JUUG25BTECH10067",
@@ -115,8 +143,12 @@
     "title": "DHAKSHAYINE V",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T09:19:45.555"
   },
   {
     "code": "JUUG25BTECH10156",
@@ -184,29 +216,45 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:31.059"
+    "timestamp": "2025-08-09T11:30:28.949"
   },
   {
     "code": "JUUG25BTECH10342",
     "title": "BATHRI KARTHIK J",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:24.971"
   },
   {
     "code": "JUUG25BTECH10364",
     "title": "ADITHYA M",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:32:03.900"
   },
   {
     "code": "JUUG25BTECH10402",
@@ -253,8 +301,15 @@
     "title": "ARJUNHARSHIT.K.S",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:45.454"
   },
   {
     "code": "JUUG25BTECH10538",
@@ -269,8 +324,15 @@
     "title": "SWETHA M P",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:54.754"
   },
   {
     "code": "JUUG25BTECH10561",
@@ -301,8 +363,15 @@
     "title": "PRATHIVE",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:50.608"
   },
   {
     "code": "JUUG25BTECH10715",
@@ -349,8 +418,15 @@
     "title": "MATHAVAN",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:32.655"
   },
   {
     "code": "JUUG25BTECH10845",
@@ -405,8 +481,15 @@
     "title": "RITHIKA V",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:30:42.595"
   },
   {
     "code": "JUUG25BTECH11127",
@@ -418,13 +501,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:40:14.116"
+    "timestamp": "2025-08-09T11:23:04.844"
   },
   {
     "code": "JUUG25BTECH11132",
@@ -468,21 +553,27 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:11.778"
+    "timestamp": "2025-08-09T11:45:30.160"
   },
   {
     "code": "JUUG25BTECH11235",
     "title": "P.MD JUNEID",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:31:38.222"
   },
   {
     "code": "JUUG25BTECH11253",
@@ -505,8 +596,15 @@
     "title": "L R PRAKALYA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:01.070"
   },
   {
     "code": "JUUG25BTECH11265",
@@ -536,13 +634,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:17.868"
+    "timestamp": "2025-08-09T11:28:26.648"
   },
   {
     "code": "JUUG25BTECH11294",
@@ -557,8 +657,15 @@
     "title": "ABISHEK",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:55.236"
   },
   {
     "code": "JUUG25BTECH11329",
@@ -578,13 +685,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:53:54.267"
+    "timestamp": "2025-08-09T11:28:06.181"
   },
   {
     "code": "JUUG25BTECH11382",
@@ -655,8 +764,15 @@
     "title": "VAISHNAVI",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:18:49.080"
   },
   {
     "code": "JUUG25BTECH11508",
@@ -751,8 +867,15 @@
     "title": "VIKSHITH.S",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:54.384"
   },
   {
     "code": "JUUG25BTECH11650",
@@ -819,8 +942,15 @@
     "title": "KAUSHIK M R",
     "subtitle": "CSE-DS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:47:37.177"
   },
   {
     "code": "JUUG25BTECH11721",
@@ -832,13 +962,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:59:17.623"
+    "timestamp": "2025-08-09T11:46:39.055"
   },
   {
     "code": "JUUG25BTECH11733",
@@ -874,21 +1006,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:51:53.649"
+    "timestamp": "2025-08-09T11:31:22.576"
   },
   {
     "code": "JUUG25BTECH11765",
     "title": "M V ABINAND",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:16.887"
   },
   {
     "code": "JUUG25BTECH11766",
@@ -948,13 +1089,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:43:22.004"
+    "timestamp": "2025-08-09T11:34:30.622"
   },
   {
     "code": "JUUG25BTECH11826",
@@ -1001,8 +1144,15 @@
     "title": "MANASVI G",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:04.487"
   },
   {
     "code": "JUUG25BTECH11927",
@@ -1057,8 +1207,15 @@
     "title": "JAVAJI JYOSHNA",
     "subtitle": "CSE-IOT",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:34:55.447"
   },
   {
     "code": "JUUG25BTECH12018",
@@ -1107,8 +1264,15 @@
     "title": "GIRI SARAN M",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:30.274"
   },
   {
     "code": "JUUG25BTECH12098",
@@ -1120,13 +1284,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:39:13.157"
+    "timestamp": "2025-08-09T11:29:56.557"
   },
   {
     "code": "JUUG25BTECH12131",
@@ -1138,13 +1304,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:48:39.223"
+    "timestamp": "2025-08-09T11:26:05.749"
   },
   {
     "code": "JUUG25BTECH12157",
@@ -1172,13 +1340,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:16.365"
+    "timestamp": "2025-08-09T11:42:08.335"
   },
   {
     "code": "JUUG25BTECH12168",
@@ -1227,8 +1397,15 @@
     "title": "SABARISH E",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:05.927"
   },
   {
     "code": "JUUG25BTECH12245",
@@ -1256,13 +1433,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:37:49.621"
+    "timestamp": "2025-08-09T11:44:37.797"
   },
   {
     "code": "JUUG25BTECH12293",
@@ -1414,13 +1593,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:41:11.232"
+    "timestamp": "2025-08-09T11:45:21.845"
   },
   {
     "code": "JUUG25BTECH12435",
@@ -1503,8 +1684,15 @@
     "title": "NETHRA",
     "subtitle": "CSE-DS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:45:49.617"
   },
   {
     "code": "JUUG25BTECH12519",
@@ -1535,8 +1723,15 @@
     "title": "VISHANTH RAMESH",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:03.429"
   },
   {
     "code": "JUUG25BTECH12554",
@@ -1629,35 +1824,60 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:38:37.846"
+    "timestamp": "2025-08-09T11:43:03.860"
   },
   {
     "code": "JUUG25BTECH12696",
     "title": "NAGINENI PRIYA VAISHNAVI",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:40.007"
   },
   {
     "code": "JUUG25BTECH12702",
     "title": "ASHWANTH R",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:41.756"
   },
   {
     "code": "JUUG25BTECH12708",
     "title": "R LATHIKHA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:58.900"
   },
   {
     "code": "JUUG25BTECH12735",
@@ -1741,13 +1961,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:58:26.369"
+    "timestamp": "2025-08-09T11:46:57.540"
   },
   {
     "code": "JUUG25BTECH12899",
@@ -1783,13 +2005,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:55:58.258"
+    "timestamp": "2025-08-09T11:39:43.518"
   },
   {
     "code": "JUUG25BTECH12915",
@@ -1841,13 +2065,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:51:56.931"
+    "timestamp": "2025-08-09T11:42:22.431"
   },
   {
     "code": "JUUG25BTECH12963",
@@ -1870,8 +2096,15 @@
     "title": "RIO MEHTA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:31.748"
   },
   {
     "code": "JUUG25BTECH12988",
@@ -1883,21 +2116,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:51:39.822"
+    "timestamp": "2025-08-09T11:42:36.991"
   },
   {
     "code": "JUUG25BTECH12994",
     "title": "AKSHAY A",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:31:36.903"
   },
   {
     "code": "JUUG25BTECH12995",
@@ -1928,8 +2170,15 @@
     "title": "AMUDHAN M K",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:31.731"
   },
   {
     "code": "JUUG25BTECH13036",
@@ -1965,13 +2214,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:48:54.655"
+    "timestamp": "2025-08-09T11:20:15.400"
   },
   {
     "code": "JUUG25BTECH13079",
@@ -2007,13 +2258,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:46:01.717"
+    "timestamp": "2025-08-09T11:45:40.240"
   },
   {
     "code": "JUUG25BTECH13127",
@@ -2041,13 +2294,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:43:46.599"
+    "timestamp": "2025-08-09T11:23:19.562"
   },
   {
     "code": "JUUG25BTECH13209",
@@ -2062,8 +2317,15 @@
     "title": "CHILUKURI SAI MANEENDHRA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:28.772"
   },
   {
     "code": "JUUG25BTECH13248",
@@ -2091,13 +2353,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:43:28.756"
+    "timestamp": "2025-08-09T11:30:36.262"
   },
   {
     "code": "JUUG25BTECH13290",
@@ -2157,13 +2421,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:46:41.952"
+    "timestamp": "2025-08-09T11:45:26.649"
   },
   {
     "code": "JUUG25BTECH13365",
@@ -2223,13 +2489,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:46:14.137"
+    "timestamp": "2025-08-09T11:22:24.584"
   },
   {
     "code": "JUUG25BTECH13459",
@@ -2265,13 +2533,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:35.818"
+    "timestamp": "2025-08-09T11:27:35.482"
   },
   {
     "code": "JUUG25BTECH13495",
@@ -2291,13 +2561,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:17.633"
+    "timestamp": "2025-08-09T11:30:31.398"
   },
   {
     "code": "JUUG25BTECH13526",
@@ -2325,13 +2597,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:52:01.791"
+    "timestamp": "2025-08-09T11:44:29.775"
   },
   {
     "code": "JUUG25BTECH13564",
@@ -2394,8 +2668,15 @@
     "title": "SHREEJAYAN",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:36.020"
   },
   {
     "code": "JUUG25BTECH13635",
@@ -2471,13 +2752,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:52:29.717"
+    "timestamp": "2025-08-09T11:44:58.753"
   },
   {
     "code": "JUUG25BTECH13718",
@@ -2500,8 +2783,15 @@
     "title": "GOKULRAJ R V",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:39.404"
   },
   {
     "code": "JUUG25BTECH13731",
@@ -2510,13 +2800,15 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:21.495"
+    "timestamp": "2025-08-09T11:32:20.019"
   },
   {
     "code": "JUUG25BTECH13752",
@@ -2549,16 +2841,30 @@
     "title": "THIYAL M",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:11.753"
   },
   {
     "code": "JUUG25BTECH13789",
     "title": "MOHAMED AAZAM KHAN",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:30:33.738"
   },
   {
     "code": "JUUG25BTECH13796",
@@ -2594,13 +2900,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:39:21.499"
+    "timestamp": "2025-08-09T11:34:14.083"
   },
   {
     "code": "JUUG25BTECH13895",
@@ -2617,10 +2925,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:16:44.521"
+    "timestamp": "2025-08-09T11:31:14.596"
   },
   {
     "code": "JUUG25BTECH13900",
@@ -2680,13 +2992,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:26.049"
+    "timestamp": "2025-08-09T11:21:29.500"
   },
   {
     "code": "JUUG25BTECH13998",
@@ -2778,13 +3092,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:48:32.817"
+    "timestamp": "2025-08-09T11:31:02.748"
   },
   {
     "code": "JUUG25BTECH14092",
@@ -2811,11 +3127,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:40:02.601"
+    "timestamp": "2025-08-09T11:29:17.915"
   },
   {
     "code": "JUUG25BTECH14125",
@@ -2867,13 +3187,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:37:20.003"
+    "timestamp": "2025-08-09T11:23:14.604"
   },
   {
     "code": "JUUG25BTECH14179",
@@ -2991,13 +3313,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:59:50.390"
+    "timestamp": "2025-08-09T11:46:41.910"
   },
   {
     "code": "JUUG25BTECH14317",
@@ -3009,13 +3333,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:51:02.403"
+    "timestamp": "2025-08-09T11:34:39.052"
   },
   {
     "code": "JUUG25BTECH14342",
@@ -3059,13 +3385,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:56:28.181"
+    "timestamp": "2025-08-09T11:42:45.141"
   },
   {
     "code": "JUUG25BTECH14387",
@@ -3077,13 +3405,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:48:34.748"
+    "timestamp": "2025-08-09T11:35:25.058"
   },
   {
     "code": "JUUG25BTECH14396",
@@ -3154,8 +3484,15 @@
     "title": "AYSHA LIYA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:31.903"
   },
   {
     "code": "JUUG25BTECH14560",
@@ -3202,8 +3539,15 @@
     "title": "SAUJANYAA S",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:18.065"
   },
   {
     "code": "JUUG25BTECH14642",
@@ -3262,11 +3606,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:56:22.496"
+    "timestamp": "2025-08-09T11:49:05.447"
   },
   {
     "code": "JUUG25BTECH14720",
@@ -3286,13 +3634,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:37:11.286"
+    "timestamp": "2025-08-09T11:23:16.844"
   },
   {
     "code": "JUUG25BTECH14737",
@@ -3408,21 +3758,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:56.405"
+    "timestamp": "2025-08-09T11:47:28.158"
   },
   {
     "code": "JUUG25BTECH14864",
     "title": "DEVANANDINI SHIJITH",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:30:36.343"
   },
   {
     "code": "JUUG25BTECH14866",
@@ -3548,13 +3907,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:45:30.004"
+    "timestamp": "2025-08-09T11:46:16.718"
   },
   {
     "code": "JUUG25BTECH14978",
@@ -3590,21 +3951,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:48:13.113"
+    "timestamp": "2025-08-09T11:43:14.435"
   },
   {
     "code": "JUUG25BTECH15033",
     "title": "HARSH PATEL",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:45.171"
   },
   {
     "code": "JUUG25BTECH15037",
@@ -3619,8 +3989,15 @@
     "title": "HEMANT VR",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:53.485"
   },
   {
     "code": "JUUG25BTECH15042",
@@ -3664,13 +4041,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:40:45.391"
+    "timestamp": "2025-08-09T11:31:51.664"
   },
   {
     "code": "JUUG25BTECH15125",
@@ -3748,13 +4127,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:28.763"
+    "timestamp": "2025-08-09T11:26:58.372"
   },
   {
     "code": "JUUG25BTECH15200",
@@ -3777,8 +4158,15 @@
     "title": "SURYA",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:37.187"
   },
   {
     "code": "JUUG25BTECH15221",
@@ -3809,8 +4197,15 @@
     "title": "MUGALAMARRI OM MOHITH REDDY",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:14.451"
   },
   {
     "code": "JUUG25BTECH15249",
@@ -3821,11 +4216,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:31.860"
+    "timestamp": "2025-08-09T11:22:38.664"
   },
   {
     "code": "JUUG25BTECH15251",
@@ -3856,16 +4255,30 @@
     "title": "LIYANA. A. AM",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:37.043"
   },
   {
     "code": "JUUG25BTECH15286",
     "title": "THIVIYAN J",
     "subtitle": "CSE - SE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:40:46.891"
   },
   {
     "code": "JUUG25BTECH15299",
@@ -3941,13 +4354,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:05.955"
+    "timestamp": "2025-08-09T11:26:20.940"
   },
   {
     "code": "JUUG25BTECH15424",
@@ -3972,10 +4387,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:42:48.508"
+    "timestamp": "2025-08-09T11:25:09.853"
   },
   {
     "code": "JUUG25BTECH15476",
@@ -3998,16 +4417,30 @@
     "title": "BOYA VINOD KUMAR",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:31:32.500"
   },
   {
     "code": "JUUG25BTECH15502",
     "title": "SACHIN SHINDE",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:29.450"
   },
   {
     "code": "JUUG25BTECH15510",
@@ -4048,8 +4481,15 @@
     "title": "NIRANJAN P G",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:49.964"
   },
   {
     "code": "JUUG25BTECH15521",
@@ -4072,8 +4512,15 @@
     "title": "DRASHTI RAJESHBHAI VADODARIYA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:34.107"
   },
   {
     "code": "JUUG25BTECH15532",
@@ -4109,13 +4556,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:00:42.255"
+    "timestamp": "2025-08-09T11:48:19.467"
   },
   {
     "code": "JUUG25BTECH15558",
@@ -4138,8 +4587,15 @@
     "title": "DHARSHAN",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:22:03.171"
   },
   {
     "code": "JUUG25BTECH15591",
@@ -4183,13 +4639,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:37:29.879"
+    "timestamp": "2025-08-09T11:44:34.266"
   },
   {
     "code": "JUUG25BTECH15610",
@@ -4212,8 +4670,15 @@
     "title": "SUMANTH POTHALA",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:22.119"
   },
   {
     "code": "JUUG25BTECH15640",
@@ -4236,8 +4701,15 @@
     "title": "BHANU PRAKASH K S",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:53:00.989"
   },
   {
     "code": "JUUG25BTECH15671",
@@ -4297,13 +4769,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:54:16.526"
+    "timestamp": "2025-08-09T11:39:35.540"
   },
   {
     "code": "JUUG25BTECH15719",
@@ -4437,13 +4911,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:46:32.467"
+    "timestamp": "2025-08-09T11:34:34.442"
   },
   {
     "code": "JUUG25BTECH15879",
@@ -4505,13 +4981,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:39:16.906"
+    "timestamp": "2025-08-09T11:33:50.583"
   },
   {
     "code": "JUUG25BTECH15932",
@@ -4526,8 +5004,15 @@
     "title": "CHAGANTI SATHVIKA",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:05.319"
   },
   {
     "code": "JUUG25BTECH15954",
@@ -4542,8 +5027,15 @@
     "title": "AYUSH RAJ GUPTA",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:53:02.156"
   },
   {
     "code": "JUUG25BTECH15960",
@@ -4629,21 +5121,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:46:29.259"
+    "timestamp": "2025-08-09T11:32:08.969"
   },
   {
     "code": "JUUG25BTECH16046",
     "title": "HARNISH",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:40.579"
   },
   {
     "code": "JUUG25BTECH16071",
@@ -4690,8 +5191,15 @@
     "title": "BHUMIREDDY RAM CHARAN REDDY",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:33.500"
   },
   {
     "code": "JUUG25BTECH16121",
@@ -4706,8 +5214,15 @@
     "title": "RITHIK ROSHAN.D",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:38.068"
   },
   {
     "code": "JUUG25BTECH16128",
@@ -4727,13 +5242,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:13.156"
+    "timestamp": "2025-08-09T11:31:30.054"
   },
   {
     "code": "JUUG25BTECH16148",
@@ -4825,13 +5342,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:41:27.532"
+    "timestamp": "2025-08-09T11:41:36.030"
   },
   {
     "code": "JUUG25BTECH16222",
@@ -4851,13 +5370,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:59:43.440"
+    "timestamp": "2025-08-09T11:46:10.852"
   },
   {
     "code": "JUUG25BTECH16237",
@@ -4925,21 +5446,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:38:27.401"
+    "timestamp": "2025-08-09T11:27:13.267"
   },
   {
     "code": "JUUG25BTECH16302",
     "title": "KALIMISETTY SUJITH SAI",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:30.549"
   },
   {
     "code": "JUUG25BTECH16304",
@@ -4999,13 +5529,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:10.767"
+    "timestamp": "2025-08-09T11:41:57.500"
   },
   {
     "code": "JUUG25BTECH16337",
@@ -5041,21 +5573,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:37:04.954"
+    "timestamp": "2025-08-09T11:23:19.229"
   },
   {
     "code": "JUUG25BTECH16352",
     "title": "NIDHIS GANDI D",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:58.818"
   },
   {
     "code": "JUUG25BTECH16354",
@@ -5091,13 +5632,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:14.517"
+    "timestamp": "2025-08-09T11:42:16.543"
   },
   {
     "code": "JUUG25BTECH16393",
@@ -5144,8 +5687,15 @@
     "title": "SARVAJITH VISHWANATH",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:21.320"
   },
   {
     "code": "JUUG25BTECH16471",
@@ -5168,8 +5718,15 @@
     "title": "NIVIN",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:37.806"
   },
   {
     "code": "JUUG25BTECH16498",
@@ -5181,13 +5738,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:45:20.228"
+    "timestamp": "2025-08-09T11:46:21.617"
   },
   {
     "code": "JUUG25BTECH16504",
@@ -5198,19 +5757,30 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:37:46.246"
+    "timestamp": "2025-08-09T11:42:57.791"
   },
   {
     "code": "JUUG25BTECH16508",
     "title": "MALAVIKA PS",
     "subtitle": "CSE-DS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:33:46.163"
   },
   {
     "code": "JUUG25BTECH16510",
@@ -5219,18 +5789,29 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:42:29.988"
+    "timestamp": "2025-08-09T11:24:43.141"
   },
   {
     "code": "JUUG25BTECH16513",
     "title": "ADITYA S LAD",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:32.470"
   },
   {
     "code": "JUUG25BTECH16521",
@@ -5239,10 +5820,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:41:46.414"
+    "timestamp": "2025-08-09T11:45:45.855"
   },
   {
     "code": "JUUG25BTECH16535",
@@ -5350,13 +5935,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:54.551"
+    "timestamp": "2025-08-09T11:34:51.528"
   },
   {
     "code": "JUUG25BTECH16620",
@@ -5384,13 +5971,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:45.124"
+    "timestamp": "2025-08-09T11:45:36.086"
   },
   {
     "code": "JUUG25BTECH16655",
@@ -5402,13 +5991,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:39:08.367"
+    "timestamp": "2025-08-09T11:29:29.057"
   },
   {
     "code": "JUUG25BTECH16685",
@@ -5431,8 +6022,15 @@
     "title": "KAVIYA DHARSHINI.S",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:49.548"
   },
   {
     "code": "JUUG25BTECH16696",
@@ -5471,8 +6069,15 @@
     "title": "P K MAGANTH",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:22:14.779"
   },
   {
     "code": "JUUG25BTECH16726",
@@ -5511,8 +6116,15 @@
     "title": "S SHARMA",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:32:00.412"
   },
   {
     "code": "JUUG25BTECH16763",
@@ -5524,21 +6136,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:49.196"
+    "timestamp": "2025-08-09T11:35:11.048"
   },
   {
     "code": "JUUG25BTECH16765",
     "title": "AADITYA R V",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:21.873"
   },
   {
     "code": "JUUG25BTECH16795",
@@ -5670,13 +6291,14 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
         1
       ]
     },
-    "timestamp": "2025-08-07T13:45:42.942"
+    "timestamp": "2025-08-09T11:22:21.403"
   },
   {
     "code": "JUUG25BTECH16877",
@@ -5699,16 +6321,30 @@
     "title": "PUVINARAYANI SENTHILKUMAR",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:53:10.291"
   },
   {
     "code": "JUUG25BTECH16895",
     "title": "SIVESH BALAAJI",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:17.294"
   },
   {
     "code": "JUUG25BTECH16911",
@@ -5797,8 +6433,15 @@
     "title": "AYYAPPAGARI GOWTHAM CHOWDARY",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:23.394"
   },
   {
     "code": "JUUG25BTECH16965",
@@ -5853,8 +6496,15 @@
     "title": "MOHAMMED AFFAN",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:31.172"
   },
   {
     "code": "JUUG25BTECH17034",
@@ -5877,8 +6527,15 @@
     "title": "HASVANTH M",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:53:08.475"
   },
   {
     "code": "JUUG25BTECH17045",
@@ -5945,19 +6602,30 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:41:34.932"
+    "timestamp": "2025-08-09T11:30:42.410"
   },
   {
     "code": "JUUG25BTECH17115",
     "title": "LAKSHMI NARASIMHA G",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:50.539"
   },
   {
     "code": "JUUG25BTECH17134",
@@ -5993,13 +6661,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:52:21.972"
+    "timestamp": "2025-08-09T11:47:48.652"
   },
   {
     "code": "JUUG25BTECH17220",
@@ -6022,8 +6692,15 @@
     "title": "KEERTHANA R C",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:09.246"
   },
   {
     "code": "JUUG25BTECH17254",
@@ -6096,8 +6773,15 @@
     "title": "YATHISH",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:47.400"
   },
   {
     "code": "JUUG25BTECH17347",
@@ -6124,11 +6808,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:37:42.639"
+    "timestamp": "2025-08-09T11:32:22.128"
   },
   {
     "code": "JUUG25BTECH17355",
@@ -6140,21 +6828,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:57:20.654"
+    "timestamp": "2025-08-09T11:43:47.235"
   },
   {
     "code": "JUUG25BTECH17356",
     "title": "KUSHWANTH",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:36.542"
   },
   {
     "code": "JUUG25BTECH17365",
@@ -6395,8 +7092,15 @@
     "title": "HARSHA VARDHAN REDDY",
     "subtitle": "CSE-AI",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:45:14.162"
   },
   {
     "code": "JUUG25BTECH17728",
@@ -6424,13 +7128,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:41:22.732"
+    "timestamp": "2025-08-09T11:41:32.620"
   },
   {
     "code": "JUUG25BTECH17760",
@@ -6557,8 +7263,15 @@
     "title": "SHRIHARAN.K",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:20.175"
   },
   {
     "code": "JUUG25BTECH17913",
@@ -6578,13 +7291,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:45:10.986"
+    "timestamp": "2025-08-09T11:42:12.479"
   },
   {
     "code": "JUUG25BTECH17929",
@@ -6631,8 +7346,15 @@
     "title": "DEVANISHANTH M",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:14.340"
   },
   {
     "code": "JUUG25BTECH17957",
@@ -6644,13 +7366,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:36.622"
+    "timestamp": "2025-08-09T11:42:15.600"
   },
   {
     "code": "JUUG25BTECH17958",
@@ -6681,8 +7405,15 @@
     "title": "SHASWANTH P",
     "subtitle": "CSE-PWC",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:35:29.622"
   },
   {
     "code": "JUUG25BTECH17970",
@@ -6709,11 +7440,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:52:46.214"
+    "timestamp": "2025-08-09T11:43:43.039"
   },
   {
     "code": "JUUG25BTECH17984",
@@ -6818,13 +7553,15 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:04:57.632"
+    "timestamp": "2025-08-09T11:48:43.299"
   },
   {
     "code": "JUUG25BTECH18140",
@@ -6902,13 +7639,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:45:00.682"
+    "timestamp": "2025-08-09T11:42:21.464"
   },
   {
     "code": "JUUG25BTECH18181",
@@ -6968,21 +7707,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:02:18.831"
+    "timestamp": "2025-08-09T11:46:08.885"
   },
   {
     "code": "JUUG25BTECH18294",
     "title": "SONALI PATEL",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:25.176"
   },
   {
     "code": "JUUG25BTECH18306",
@@ -7045,16 +7793,30 @@
     "title": "P SUSHANTH",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:39.685"
   },
   {
     "code": "JUUG25BTECH18371",
     "title": "DHEERAJ S",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:29.114"
   },
   {
     "code": "JUUG25BTECH18374",
@@ -7066,13 +7828,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:50.466"
+    "timestamp": "2025-08-09T11:42:03.110"
   },
   {
     "code": "JUUG25BTECH18415",
@@ -7103,16 +7867,30 @@
     "title": "B SAI YUKTHA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:15.017"
   },
   {
     "code": "JUUG25BTECH18478",
     "title": "ANNE REEJA A",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:30:46.786"
   },
   {
     "code": "JUUG25BTECH18481",
@@ -7148,13 +7926,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:04:48.086"
+    "timestamp": "2025-08-09T11:48:35.615"
   },
   {
     "code": "JUUG25BTECH18519",
@@ -7249,8 +8029,15 @@
     "title": "PRINCE KUMAR",
     "subtitle": "CSE-IOT",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:43:39.535"
   },
   {
     "code": "JUUG25BTECH18646",
@@ -7286,13 +8073,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:40:27.994"
+    "timestamp": "2025-08-09T11:42:41.210"
   },
   {
     "code": "JUUG25BTECH18691",
@@ -7328,13 +8117,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:48:24.523"
+    "timestamp": "2025-08-09T11:30:48.508"
   },
   {
     "code": "JUUG25BTECH18720",
@@ -7346,13 +8137,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:30.983"
+    "timestamp": "2025-08-09T11:44:25.587"
   },
   {
     "code": "JUUG25BTECH18730",
@@ -7423,8 +8216,15 @@
     "title": "SHAIK IRSHAD HUSSAIN",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:32.524"
   },
   {
     "code": "JUUG25BTECH18810",
@@ -7447,8 +8247,15 @@
     "title": "DOLA SREESA YAGNESH REDDY",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:36.672"
   },
   {
     "code": "JUUG25BTECH18825",
@@ -7527,8 +8334,15 @@
     "title": "RASHMIKA REPAKA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:10.477"
   },
   {
     "code": "JUUG25BTECH18891",
@@ -7547,11 +8361,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:05:33.832"
+    "timestamp": "2025-08-09T11:48:49.120"
   },
   {
     "code": "JUUG25BTECH18921",
@@ -7670,8 +8488,15 @@
     "title": "JASASWIN SAHU",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:38.048"
   },
   {
     "code": "JUUG25BTECH19073",
@@ -7710,8 +8535,15 @@
     "title": "NANDALURU YASASWINI",
     "subtitle": "CSE - SE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:45:56.817"
   },
   {
     "code": "JUUG25BTECH19111",
@@ -7787,13 +8619,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:02:27.044"
+    "timestamp": "2025-08-09T11:25:23.235"
   },
   {
     "code": "JUUG25BTECH19191",
@@ -7816,8 +8650,15 @@
     "title": "SHAIK MOHAMMAD FAIZ AHAMMAD",
     "subtitle": "CSE-BCT",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:45:28.987"
   },
   {
     "code": "JUUG25BTECH19220",
@@ -7920,8 +8761,12 @@
     "title": "ABISREE PRABHAA R",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T09:19:41.089"
   },
   {
     "code": "JUUG25BTECH19295",
@@ -7941,13 +8786,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:33.644"
+    "timestamp": "2025-08-09T11:41:56.830"
   },
   {
     "code": "JUUG25BTECH19327",
@@ -7962,8 +8809,15 @@
     "title": "DAKSH GANDHI",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:17.143"
   },
   {
     "code": "JUUG25BTECH19341",
@@ -8002,8 +8856,15 @@
     "title": "RUCHITHA GANGATKAAR A M",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:48.472"
   },
   {
     "code": "JUUG25BTECH19373",
@@ -8169,8 +9030,12 @@
     "title": "DIPON PAUL",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T09:15:49.154"
   },
   {
     "code": "JUUG25BTECH19497",
@@ -8209,8 +9074,15 @@
     "title": "M SRIHARIPRIYAA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:24.067"
   },
   {
     "code": "JUUG25BTECH19514",
@@ -8329,10 +9201,11 @@
         1
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:48:30.097"
+    "timestamp": "2025-08-09T11:34:55.840"
   },
   {
     "code": "JUUG25BTECH19685",
@@ -8403,8 +9276,15 @@
     "title": "AKSHAT TIWARI",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:51:55.609"
   },
   {
     "code": "JUUG25BTECH19774",
@@ -8424,13 +9304,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:43:20.562"
+    "timestamp": "2025-08-09T11:42:03.354"
   },
   {
     "code": "JUUG25BTECH19787",
@@ -8490,13 +9372,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:52:59.158"
+    "timestamp": "2025-08-09T11:27:26.837"
   },
   {
     "code": "JUUG25BTECH19856",
@@ -8532,21 +9416,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:51:11.600"
+    "timestamp": "2025-08-09T11:22:03.903"
   },
   {
     "code": "JUUG25BTECH19872",
     "title": "ANU VARSHAN R",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:45.012"
   },
   {
     "code": "JUUG25BTECH19879",
@@ -8617,8 +9510,15 @@
     "title": "VANKAM NIKHIL",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:56.300"
   },
   {
     "code": "JUUG25BTECH19980",
@@ -8649,8 +9549,15 @@
     "title": "RAMKISHORE",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:46.591"
   },
   {
     "code": "JUUG25BTECH19991",
@@ -8662,13 +9569,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:39:21.398"
+    "timestamp": "2025-08-09T11:22:55.289"
   },
   {
     "code": "JUUG25BTECH20012",
@@ -8683,8 +9592,15 @@
     "title": "HARIOM YADAV",
     "subtitle": "CSE - SE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:43:36.651"
   },
   {
     "code": "JUUG25BTECH20018",
@@ -8712,21 +9628,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:40:10.432"
+    "timestamp": "2025-08-09T11:23:08.144"
   },
   {
     "code": "JUUG25BTECH20090",
     "title": "PAVANAJ TERALA",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:31:18.348"
   },
   {
     "code": "JUUG25BTECH20099",
@@ -8770,13 +9695,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:44.384"
+    "timestamp": "2025-08-09T11:59:50.181"
   },
   {
     "code": "JUUG25BTECH20128",
@@ -8788,13 +9715,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:28.529"
+    "timestamp": "2025-08-09T11:59:46.076"
   },
   {
     "code": "JUUG25BTECH20133",
@@ -8817,8 +9746,15 @@
     "title": "SATYAM KUMAR JHA",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:32:23.729"
   },
   {
     "code": "JUUG25BTECH20175",
@@ -8889,8 +9825,15 @@
     "title": "JASWANTH KUMAR REDDY",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:11.619"
   },
   {
     "code": "JUUG25BTECH20230",
@@ -8961,8 +9904,15 @@
     "title": "KISHORE P",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:48.042"
   },
   {
     "code": "JUUG25BTECH20432",
@@ -8985,8 +9935,15 @@
     "title": "HEMANTH D",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:31:50.699"
   },
   {
     "code": "JUUG25BTECH20458",
@@ -9006,13 +9963,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:57.805"
+    "timestamp": "2025-08-09T11:22:36.039"
   },
   {
     "code": "JUUG25BTECH20481",
@@ -9048,13 +10007,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:40.510"
+    "timestamp": "2025-08-09T11:22:52.103"
   },
   {
     "code": "JUUG25BTECH20556",
@@ -9085,8 +10046,15 @@
     "title": "SATHWIK TEJA TARIKONDA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:22.301"
   },
   {
     "code": "JUUG25BTECH20583",
@@ -9098,13 +10066,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:40:35.566"
+    "timestamp": "2025-08-09T11:45:04.116"
   },
   {
     "code": "JUUG25BTECH20594",
@@ -9119,8 +10089,15 @@
     "title": "MUKTHA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:27.778"
   },
   {
     "code": "JUUG25BTECH20640",
@@ -9135,8 +10112,15 @@
     "title": "VINEET B",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:00.331"
   },
   {
     "code": "JUUG25BTECH20670",
@@ -9155,11 +10139,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:02:11.425"
+    "timestamp": "2025-08-09T11:46:04.835"
   },
   {
     "code": "JUUG25BTECH20697",
@@ -9190,8 +10178,15 @@
     "title": "K S NIKHITHA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:22.436"
   },
   {
     "code": "JUUG25BTECH20763",
@@ -9214,8 +10209,15 @@
     "title": "VASUNDHARA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:07.004"
   },
   {
     "code": "JUUG25BTECH20783",
@@ -9243,13 +10245,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:54:27.292"
+    "timestamp": "2025-08-09T11:39:40.498"
   },
   {
     "code": "JUUG25BTECH20801",
@@ -9322,16 +10326,30 @@
     "title": "GOKUL NANDAN A",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:57.622"
   },
   {
     "code": "JUUG25BTECH20903",
     "title": "HIMANSHI KUMARIB",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:20.713"
   },
   {
     "code": "JUUG25BTECH20915",
@@ -9400,16 +10418,30 @@
     "title": "SANTHOSH REDDY",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:27.339"
   },
   {
     "code": "JUUG25BTECH20970",
     "title": "ROHITA LAKSHMI PENEGALAPATI",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:17.460"
   },
   {
     "code": "JUUG25BTECH20977",
@@ -9420,11 +10452,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:55:53.455"
+    "timestamp": "2025-08-09T11:41:50.721"
   },
   {
     "code": "JUUG25BTECH20983",
@@ -9479,8 +10515,12 @@
     "title": "YOGESH L",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:27.901"
   },
   {
     "code": "JUUG25BTECH21042",
@@ -9492,13 +10532,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:11.176"
+    "timestamp": "2025-08-09T11:28:35.941"
   },
   {
     "code": "JUUG25BTECH21043",
@@ -9510,37 +10552,60 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:39:09.897"
+    "timestamp": "2025-08-09T11:32:28.484"
   },
   {
     "code": "JUUG25BTECH21046",
     "title": "ATHARV KANCHOLI",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:47.753"
   },
   {
     "code": "JUUG25BTECH21078",
     "title": "PRAKRUTHI GOWDA GK",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:20.795"
   },
   {
     "code": "JUUG25BTECH21082",
     "title": "KAMALESH",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:42.001"
   },
   {
     "code": "JUUG25BTECH21089",
@@ -9559,11 +10624,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:56:06.593"
+    "timestamp": "2025-08-09T11:44:29.741"
   },
   {
     "code": "JUUG25BTECH21120",
@@ -9591,13 +10660,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:39:51.406"
+    "timestamp": "2025-08-09T11:22:46.349"
   },
   {
     "code": "JUUG25BTECH21145",
@@ -9636,16 +10707,30 @@
     "title": "SHIVANSH MISHRA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:17.412"
   },
   {
     "code": "JUUG25BTECH21209",
     "title": "VIJAY PRIYAN R",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:33.070"
   },
   {
     "code": "JUUG25BTECH21223",
@@ -9665,13 +10750,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:48.739"
+    "timestamp": "2025-08-09T11:28:09.397"
   },
   {
     "code": "JUUG25BTECH21256",
@@ -9680,26 +10767,44 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:24:10.646"
+    "timestamp": "2025-08-09T11:25:03.425"
   },
   {
     "code": "JUUG25BTECH21274",
     "title": "K RAM CHARAN YADAV",
     "subtitle": "CSE-BCT",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:36:06.092"
   },
   {
     "code": "JUUG25BTECH21286",
     "title": "VENKATA LAHARI",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:18:59.736"
   },
   {
     "code": "JUUG25BTECH21290",
@@ -9794,8 +10899,15 @@
     "title": "HEMACHANDRAN N",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:52.674"
   },
   {
     "code": "JUUG25BTECH21405",
@@ -9814,11 +10926,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:01:45.787"
+    "timestamp": "2025-08-09T11:26:40.012"
   },
   {
     "code": "JUUG25BTECH21423",
@@ -9859,10 +10975,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:23:58.171"
+    "timestamp": "2025-08-09T11:25:14.030"
   },
   {
     "code": "JUUG25BTECH21460",
@@ -9893,8 +11013,15 @@
     "title": "EDIGA PAARTHAV GOWD",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:20.513"
   },
   {
     "code": "JUUG25BTECH21494",
@@ -9909,8 +11036,15 @@
     "title": "ATHARV RASTOGI",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:16.985"
   },
   {
     "code": "JUUG25BTECH21503",
@@ -9959,8 +11093,15 @@
     "title": "PRASANNA DL",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:45.096"
   },
   {
     "code": "JUUG25BTECH21569",
@@ -9991,8 +11132,15 @@
     "title": "DASARI JAYASREE",
     "subtitle": "CSE-DS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:38:43.454"
   },
   {
     "code": "JUUG25BTECH21594",
@@ -10001,10 +11149,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:23:12.069"
+    "timestamp": "2025-08-09T11:46:26.476"
   },
   {
     "code": "JUUG25BTECH21600",
@@ -10019,8 +11171,15 @@
     "title": "SINGADI SUDHEER",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:19.543"
   },
   {
     "code": "JUUG25BTECH21602",
@@ -10043,8 +11202,15 @@
     "title": "THEJASWINI R",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:33:16.961"
   },
   {
     "code": "JUUG25BTECH21630",
@@ -10056,13 +11222,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:38:58.731"
+    "timestamp": "2025-08-09T11:27:19.173"
   },
   {
     "code": "JUUG25BTECH21634",
@@ -10103,8 +11271,15 @@
     "title": "PALEM GANGA SRI HARSHA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:06.233"
   },
   {
     "code": "JUUG25BTECH21668",
@@ -10116,13 +11291,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:51:18.585"
+    "timestamp": "2025-08-09T11:22:08.388"
   },
   {
     "code": "JUUG25BTECH21671",
@@ -10145,8 +11322,15 @@
     "title": "EDWARDPHILIP",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:01.744"
   },
   {
     "code": "JUUG25BTECH21689",
@@ -10161,8 +11345,15 @@
     "title": "KRISTAM SAI SUMANVITHA",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:30:58.624"
   },
   {
     "code": "JUUG25BTECH21743",
@@ -10209,8 +11400,15 @@
     "title": "HARSHIT MUTREJA",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:32:17.005"
   },
   {
     "code": "JUUG25BTECH21780",
@@ -10225,8 +11423,15 @@
     "title": "PATHIKONDA HARI",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:30.864"
   },
   {
     "code": "JUUG25BTECH21801",
@@ -10241,10 +11446,11 @@
         1
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:25.471"
+    "timestamp": "2025-08-09T11:21:47.886"
   },
   {
     "code": "JUUG25BTECH21815",
@@ -10255,11 +11461,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:38:44.160"
+    "timestamp": "2025-08-09T11:29:36.792"
   },
   {
     "code": "JUUG25BTECH21819",
@@ -10316,8 +11526,15 @@
     "title": "ANUSHA M B",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:31:09.313"
   },
   {
     "code": "JUUG25BTECH21842",
@@ -10385,13 +11602,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:02:34.668"
+    "timestamp": "2025-08-09T11:24:52.590"
   },
   {
     "code": "JUUG25BTECH21940",
@@ -10406,8 +11625,15 @@
     "title": "NANDITHA. M.K",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:33.957"
   },
   {
     "code": "JUUG25BTECH21956",
@@ -10438,10 +11664,11 @@
         1
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:00:52.912"
+    "timestamp": "2025-08-09T11:25:26.104"
   },
   {
     "code": "JUUG25BTECH21997",
@@ -10464,8 +11691,15 @@
     "title": "EATHAKOTA RISHIRAJ",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:05.334"
   },
   {
     "code": "JUUG25BTECH22028",
@@ -10477,13 +11711,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:01:02.789"
+    "timestamp": "2025-08-09T11:45:52.104"
   },
   {
     "code": "JUUG25BTECH22036",
@@ -10506,8 +11742,15 @@
     "title": "SARVESH KARTHIC M",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:48.491"
   },
   {
     "code": "JUUG25BTECH22052",
@@ -10530,8 +11773,15 @@
     "title": "SOHAN JASH",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:26:02.435"
   },
   {
     "code": "JUUG25BTECH22059",
@@ -10564,8 +11814,15 @@
     "title": "RAKSHIT A K NAIR",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:20.231"
   },
   {
     "code": "JUUG25BTECH22083",
@@ -10596,8 +11853,15 @@
     "title": "VISHAAL MS",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:28.451"
   },
   {
     "code": "JUUG25BTECH22100",
@@ -10660,8 +11924,15 @@
     "title": "DOKI BRATA RANJAN",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:33.255"
   },
   {
     "code": "JUUG25BTECH22207",
@@ -10684,8 +11955,15 @@
     "title": "BRUNDA SHREE V",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:31:12.771"
   },
   {
     "code": "JUUG25BTECH22233",
@@ -10721,13 +11999,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:53:39.761"
+    "timestamp": "2025-08-09T11:27:22.982"
   },
   {
     "code": "JUUG25BTECH22262",
@@ -10758,8 +12038,15 @@
     "title": "RAGHUNATH MAHIMA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:15.190"
   },
   {
     "code": "JUUG25BTECH22287",
@@ -10774,8 +12061,12 @@
     "title": "TEASW.S",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:17.951"
   },
   {
     "code": "JUUG25BTECH22297",
@@ -10798,16 +12089,27 @@
     "title": "HARISSH M V",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:40.716"
   },
   {
     "code": "JUUG25BTECH22300",
     "title": "MANAV KATARIYA",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:44.706"
   },
   {
     "code": "JUUG25BTECH22303",
@@ -10867,13 +12169,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:42:42.614"
+    "timestamp": "2025-08-09T11:25:44.135"
   },
   {
     "code": "JUUG25BTECH22412",
@@ -10925,13 +12229,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:54:08.546"
+    "timestamp": "2025-08-09T11:39:05.434"
   },
   {
     "code": "JUUG25BTECH22505",
@@ -10964,10 +12270,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:31:49.907"
+    "timestamp": "2025-08-09T11:24:36.076"
   },
   {
     "code": "JUUG25BTECH22543",
@@ -10982,16 +12292,30 @@
     "title": "HARI KUMARAN S M",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:24:39.704"
   },
   {
     "code": "JUUG25BTECH22604",
     "title": "MAYURIKA TS",
     "subtitle": "GEN-AI",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:35:19.272"
   },
   {
     "code": "JUUG25BTECH22615",
@@ -11027,13 +12351,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:48:46.282"
+    "timestamp": "2025-08-09T11:48:00.162"
   },
   {
     "code": "JUUG25BTECH22678",
@@ -11048,8 +12374,12 @@
     "title": "ISHANT TRIKHATRI",
     "subtitle": "CSE-AI",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:39:08.661"
   },
   {
     "code": "JUUG25BTECH22710",
@@ -11080,8 +12410,15 @@
     "title": "NITU DEVI KONGBRAILATPAM",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:47:56.614"
   },
   {
     "code": "JUUG25BTECH22754",
@@ -11093,13 +12430,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:37:08.143"
+    "timestamp": "2025-08-09T11:42:32.031"
   },
   {
     "code": "JUUG25BTECH22755",
@@ -11119,13 +12458,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:40:40.643"
+    "timestamp": "2025-08-09T11:46:48.725"
   },
   {
     "code": "JUUG25BTECH22772",
@@ -11169,13 +12510,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:38:42.726"
+    "timestamp": "2025-08-09T11:22:59.989"
   },
   {
     "code": "JUUG25BTECH22884",
@@ -11202,11 +12545,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:38:00.230"
+    "timestamp": "2025-08-09T11:49:00.031"
   },
   {
     "code": "JUUG25BTECH22916",
@@ -11226,13 +12573,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:20.764"
+    "timestamp": "2025-08-09T11:26:44.431"
   },
   {
     "code": "JUUG25BTECH22937",
@@ -11257,10 +12606,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:30:44.343"
+    "timestamp": "2025-08-09T11:43:33.769"
   },
   {
     "code": "JUUG25BTECH23008",
@@ -11315,8 +12668,15 @@
     "title": "GUGGILLA HEMA PRIYA",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:38.111"
   },
   {
     "code": "JUUG25BTECH23158",
@@ -11325,10 +12685,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:25:16.150"
+    "timestamp": "2025-08-09T11:43:26.645"
   },
   {
     "code": "JUUG25BTECH23167",
@@ -11367,8 +12731,15 @@
     "title": "A.HRUSHIKESHWARA REDDY",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:54.146"
   },
   {
     "code": "JUUG25BTECH23265",
@@ -11406,13 +12777,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:37:33.998"
+    "timestamp": "2025-08-09T11:25:27.256"
   },
   {
     "code": "JUUG25BTECH23288",
@@ -11530,13 +12903,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:26.888"
+    "timestamp": "2025-08-09T11:47:44.487"
   },
   {
     "code": "JUUG25BTECH23468",
@@ -11577,10 +12952,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:33:56.520"
+    "timestamp": "2025-08-09T11:31:41.294"
   },
   {
     "code": "JUUG25BTECH23502",
@@ -11600,13 +12979,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:56.723"
+    "timestamp": "2025-08-09T11:43:24.815"
   },
   {
     "code": "JUUG25BTECH23513",
@@ -11629,8 +13010,15 @@
     "title": "PASUPULETI MOUNIKA",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:53:17.556"
   },
   {
     "code": "JUUG25BTECH23542",
@@ -11661,8 +13049,15 @@
     "title": "SAMRIDDHI MAHATO",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:21.076"
   },
   {
     "code": "JUUG25BTECH23565",
@@ -11685,8 +13080,15 @@
     "title": "ATHARV SINGH",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:09.216"
   },
   {
     "code": "JUUG25BTECH23622",
@@ -11701,8 +13103,15 @@
     "title": "CHARISHMA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:30.532"
   },
   {
     "code": "JUUG25BTECH23631",
@@ -11754,13 +13163,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:53:06.977"
+    "timestamp": "2025-08-09T11:27:04.757"
   },
   {
     "code": "JUUG25BTECH23655",
@@ -11791,8 +13202,15 @@
     "title": "P.SAI CHARAN REDDY",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:04.174"
   },
   {
     "code": "JUUG25BTECH23717",
@@ -11815,8 +13233,15 @@
     "title": "E VIVEK",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:02.741"
   },
   {
     "code": "JUUG25BTECH23759",
@@ -11895,8 +13320,15 @@
     "title": "DURGA SAI",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:49.625"
   },
   {
     "code": "JUUG25BTECH23893",
@@ -11951,8 +13383,15 @@
     "title": "ANANYA MALVIYA",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:29.006"
   },
   {
     "code": "JUUG25BTECH23977",
@@ -11991,8 +13430,15 @@
     "title": "SHLOK SINGH",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:16.816"
   },
   {
     "code": "JUUG25BTECH23994",
@@ -12020,13 +13466,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:46:14.518"
+    "timestamp": "2025-08-09T11:26:50.354"
   },
   {
     "code": "JUUG25BTECH24021",
@@ -12081,10 +13529,11 @@
         1
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:40:27.091"
+    "timestamp": "2025-08-09T11:23:05.457"
   },
   {
     "code": "JUUG25BTECH24128",
@@ -12099,8 +13548,12 @@
     "title": "SAMPAD PANIGRAHI",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:51:59.118"
   },
   {
     "code": "JUUG25BTECH24141",
@@ -12152,13 +13605,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:02.143"
+    "timestamp": "2025-08-09T11:43:18.978"
   },
   {
     "code": "JUUG25BTECH24220",
@@ -12178,13 +13633,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:01:29.639"
+    "timestamp": "2025-08-09T11:45:58.955"
   },
   {
     "code": "JUUG25BTECH24234",
@@ -12199,16 +13656,30 @@
     "title": "THANGEDIKUNTA VUNGARALA HASINI SAI",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:01.518"
   },
   {
     "code": "JUUG25BTECH24258",
     "title": "KANNEEDI DAIWIK NAGASAI KUMAR",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:18.343"
   },
   {
     "code": "JUUG25BTECH24262",
@@ -12247,8 +13718,15 @@
     "title": "MUKESHVEL R",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:56.156"
   },
   {
     "code": "JUUG25BTECH24345",
@@ -12295,8 +13773,15 @@
     "title": "PRANESH MADANKUMAR",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:07.406"
   },
   {
     "code": "JUUG25BTECH24424",
@@ -12308,13 +13793,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:58:06.223"
+    "timestamp": "2025-08-09T11:47:00.089"
   },
   {
     "code": "JUUG25BTECH24455",
@@ -12369,8 +13856,15 @@
     "title": "HIRKANI GANESH GAWARE",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:18.136"
   },
   {
     "code": "JUUG25BTECH24572",
@@ -12379,10 +13873,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:23:02.861"
+    "timestamp": "2025-08-09T11:42:49.791"
   },
   {
     "code": "JUUG25BTECH24575",
@@ -12405,8 +13903,15 @@
     "title": "SHAIKH BAKHTEYAR ALI",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:20:12.280"
   },
   {
     "code": "JUUG25BTECH24590",
@@ -12429,16 +13934,30 @@
     "title": "VAIBHAV A JAIN",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:41.975"
   },
   {
     "code": "JUUG25BTECH24635",
     "title": "MAKANDAR THAYYUB HUSSAIN",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:35.598"
   },
   {
     "code": "JUUG25BTECH24637",
@@ -12458,13 +13977,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:03.095"
+    "timestamp": "2025-08-09T11:47:52.307"
   },
   {
     "code": "JUUG25BTECH24677",
@@ -12479,8 +14000,15 @@
     "title": "MAKANDAR THAHEER HASSAIN",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:29.929"
   },
   {
     "code": "JUUG25BTECH24686",
@@ -12518,13 +14046,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:02.207"
+    "timestamp": "2025-08-09T11:21:24.121"
   },
   {
     "code": "JUUG25BTECH24698",
@@ -12557,10 +14087,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:40:27.896"
+    "timestamp": "2025-08-09T11:35:57.768"
   },
   {
     "code": "JUUG25BTECH24748",
@@ -12604,13 +14138,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:45.245"
+    "timestamp": "2025-08-09T11:22:48.784"
   },
   {
     "code": "JUUG25BTECH24833",
@@ -12646,21 +14182,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:14.523"
+    "timestamp": "2025-08-09T11:22:30.924"
   },
   {
     "code": "JUUG25BTECH24852",
     "title": "PASAM JANAVI",
     "subtitle": "CSE-AI",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:25:55.829"
   },
   {
     "code": "JUUG25BTECH24858",
@@ -12715,8 +14260,15 @@
     "title": "GAGAN D",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:38.791"
   },
   {
     "code": "JUUG25BTECH24885",
@@ -12731,8 +14283,15 @@
     "title": "DHRUV PRADEEP",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:48.523"
   },
   {
     "code": "JUUG25BTECH24894",
@@ -12747,8 +14306,15 @@
     "title": "HIRAN HARI",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:12.072"
   },
   {
     "code": "JUUG25BTECH24910",
@@ -12776,13 +14342,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:27.548"
+    "timestamp": "2025-08-09T11:31:10.541"
   },
   {
     "code": "JUUG25BTECH24947",
@@ -12850,13 +14418,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:21.257"
+    "timestamp": "2025-08-09T11:22:17.869"
   },
   {
     "code": "JUUG25BTECH25038",
@@ -12887,8 +14457,15 @@
     "title": "GANESH C",
     "subtitle": "CSE-IOT",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:43:15.099"
   },
   {
     "code": "JUUG25BTECH25092",
@@ -12911,8 +14488,15 @@
     "title": "KURUBA ASHRITH",
     "subtitle": "CSE-IOT",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:43:00.953"
   },
   {
     "code": "JUUG25BTECH25128",
@@ -12943,16 +14527,30 @@
     "title": "ANKUR KUMAR",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:26.475"
   },
   {
     "code": "JUUG25BTECH25152",
     "title": "PIYUSH KASHYAP",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:40.358"
   },
   {
     "code": "JUUG25BTECH25204",
@@ -12999,8 +14597,12 @@
     "title": "YAGYA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T09:23:12.338"
   },
   {
     "code": "JUUG25BTECH25238",
@@ -13102,13 +14704,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:11.483"
+    "timestamp": "2025-08-09T11:22:34.193"
   },
   {
     "code": "JUUG25BTECH25332",
@@ -13248,13 +14852,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:23.362"
+    "timestamp": "2025-08-09T12:14:41.002"
   },
   {
     "code": "JUUG25BTECH25454",
@@ -13364,8 +14970,12 @@
     "title": "A B SREE VAIBHAVI",
     "subtitle": "CSE-AI",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:34:15.700"
   },
   {
     "code": "JUUG25BTECH25646",
@@ -13374,10 +14984,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:22:57.740"
+    "timestamp": "2025-08-09T11:41:45.330"
   },
   {
     "code": "JUUG25BTECH25674",
@@ -13396,11 +15010,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:30.488"
+    "timestamp": "2025-08-09T11:39:50.915"
   },
   {
     "code": "JUUG25BTECH25684",
@@ -13411,11 +15029,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:38:10.441"
+    "timestamp": "2025-08-09T11:39:20.987"
   },
   {
     "code": "JUUG25BTECH25725",
@@ -13430,8 +15052,15 @@
     "title": "RIMJHIM",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:51:52.158"
   },
   {
     "code": "JUUG25BTECH25737",
@@ -13459,21 +15088,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:22.312"
+    "timestamp": "2025-08-09T11:53:10.916"
   },
   {
     "code": "JUUG25BTECH25789",
     "title": "K.TEJESWAR",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:11.666"
   },
   {
     "code": "JUUG25BTECH25790",
@@ -13512,8 +15150,15 @@
     "title": "DANEPALLI SAMVARTHIKA",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:10.209"
   },
   {
     "code": "JUUG25BTECH25867",
@@ -13528,8 +15173,12 @@
     "title": "NUMAN SHAMIM",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:49:23.011"
   },
   {
     "code": "JUUG25BTECH25890",
@@ -13541,13 +15190,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:43:02.694"
+    "timestamp": "2025-08-09T11:26:32.802"
   },
   {
     "code": "JUUG25BTECH25907",
@@ -13618,16 +15269,30 @@
     "title": "GV TANAV",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:42.775"
   },
   {
     "code": "JUUG25BTECH26032",
     "title": "AMITH M",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:14.235"
   },
   {
     "code": "JUUG25BTECH26040",
@@ -13660,8 +15325,15 @@
     "title": "K S SANJU SREE",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:23.868"
   },
   {
     "code": "JUUG25BTECH26077",
@@ -13740,8 +15412,15 @@
     "title": "SANDARI AKSHAY",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:31:29.462"
   },
   {
     "code": "JUUG25BTECH26177",
@@ -13801,13 +15480,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:43:45.662"
+    "timestamp": "2025-08-09T11:29:02.842"
   },
   {
     "code": "JUUG25BTECH26253",
@@ -13819,13 +15500,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:57:26.469"
+    "timestamp": "2025-08-09T11:43:44.050"
   },
   {
     "code": "JUUG25BTECH26258",
@@ -13837,13 +15520,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:42:47.640"
+    "timestamp": "2025-08-09T11:26:15.700"
   },
   {
     "code": "JUUG25BTECH26269",
@@ -13871,13 +15556,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:39:55.553"
+    "timestamp": "2025-08-09T11:27:50.817"
   },
   {
     "code": "JUUG25BTECH26300",
@@ -13964,8 +15651,15 @@
     "title": "KATHI HARSHITH",
     "subtitle": "CSE-CTMA",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:48:56.152"
   },
   {
     "code": "JUUG25BTECH26435",
@@ -14022,13 +15716,15 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:43:36.983"
+    "timestamp": "2025-08-09T11:40:04.663"
   },
   {
     "code": "JUUG25BTECH26615",
@@ -14067,8 +15763,15 @@
     "title": "MONIKA",
     "subtitle": "CSE-AIDE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:19:25.045"
   },
   {
     "code": "JUUG25BTECH26733",
@@ -14098,9 +15801,15 @@
     "scanned": {
       "Afternoon": [
         1
+      ],
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:23:52.774"
+    "timestamp": "2025-08-09T11:19:33.852"
   },
   {
     "code": "JUUG25BTECH26760",
@@ -14144,13 +15853,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:36.834"
+    "timestamp": "2025-08-09T11:41:53.615"
   },
   {
     "code": "JUUG25BTECH26876",
@@ -14204,13 +15915,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:43:38.502"
+    "timestamp": "2025-08-09T11:25:47.511"
   },
   {
     "code": "JUUG25BTECH26956",
@@ -14278,13 +15991,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:38:57.316"
+    "timestamp": "2025-08-09T11:22:56.018"
   },
   {
     "code": "JUUG25BTECH27037",
@@ -14296,13 +16011,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:04:43.249"
+    "timestamp": "2025-08-09T11:48:40.740"
   },
   {
     "code": "JUUG25BTECH27052",
@@ -14338,13 +16055,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:39:35.031"
+    "timestamp": "2025-08-09T11:28:13.528"
   },
   {
     "code": "JUUG25BTECH27085",
@@ -14411,10 +16130,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:43:24.704"
+    "timestamp": "2025-08-09T11:44:43.528"
   },
   {
     "code": "JUUG25BTECH27124",
@@ -14426,13 +16149,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:30.432"
+    "timestamp": "2025-08-09T11:43:05.549"
   },
   {
     "code": "JUUG25BTECH27153",
@@ -14468,13 +16193,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:02:56.306"
+    "timestamp": "2025-08-09T11:38:28.173"
   },
   {
     "code": "JUUG25BTECH27245",
@@ -14486,13 +16213,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:59:46.795"
+    "timestamp": "2025-08-09T11:46:01.856"
   },
   {
     "code": "JUUG25BTECH27246",
@@ -14525,10 +16254,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:22:31.470"
+    "timestamp": "2025-08-09T11:28:45.527"
   },
   {
     "code": "JUUG25BTECH27270",
@@ -14556,13 +16289,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:24.393"
+    "timestamp": "2025-08-09T11:42:48.393"
   },
   {
     "code": "JUUG25BTECH27317",
@@ -14614,13 +16349,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:44.337"
+    "timestamp": "2025-08-09T11:35:54.089"
   },
   {
     "code": "JUUG25BTECH27453",
@@ -14650,13 +16387,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:48:12.648"
+    "timestamp": "2025-08-09T11:48:07.204"
   },
   {
     "code": "JUUG25BTECH27491",
@@ -14713,8 +16452,15 @@
     "title": "SUCHISMITA MAHATO",
     "subtitle": "CSE-BCT",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:05.973"
   },
   {
     "code": "JUUG25BTECH27580",
@@ -14742,13 +16488,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:46:55.978"
+    "timestamp": "2025-08-09T11:45:34.979"
   },
   {
     "code": "JUUG25BTECH27617",
@@ -14765,10 +16513,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:42:33.784"
+    "timestamp": "2025-08-09T11:41:48.830"
   },
   {
     "code": "JUUG25BTECH27697",
@@ -14777,10 +16529,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:23:06.309"
+    "timestamp": "2025-08-09T11:46:22.641"
   },
   {
     "code": "JUUG25BTECH27709",
@@ -14795,8 +16551,15 @@
     "title": "ISHANEE MOITRA",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:29.649"
   },
   {
     "code": "JUUG25BTECH27786",
@@ -14816,21 +16579,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:41.773"
+    "timestamp": "2025-08-09T11:35:46.147"
   },
   {
     "code": "JUUG25BTECH27796",
     "title": "Anant",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:30:36.869"
   },
   {
     "code": "JUUG25BTECH27805",
@@ -14849,11 +16621,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:46.237"
+    "timestamp": "2025-08-09T11:45:23.722"
   },
   {
     "code": "JUUG25BTECH27837",
@@ -14872,11 +16648,15 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:43:38.659"
+    "timestamp": "2025-08-09T11:23:19.189"
   },
   {
     "code": "JUUG25BTECH27856",
@@ -14896,13 +16676,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:57:14.704"
+    "timestamp": "2025-08-09T11:46:43.299"
   },
   {
     "code": "JUUG25BTECH27950",
@@ -14951,8 +16733,15 @@
     "title": "GORLA SHASHANTH KUMAR REDDY",
     "subtitle": "CSE-CTIS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:31:54.730"
   },
   {
     "code": "JUUG25BTECH28046",
@@ -14975,8 +16764,15 @@
     "title": "CHANDRA PRAKASH",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:24.264"
   },
   {
     "code": "JUUG25BTECH28065",
@@ -15004,13 +16800,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:51:33.326"
+    "timestamp": "2025-08-09T11:44:57.936"
   },
   {
     "code": "JUUG25BTECH28133",
@@ -15125,8 +16923,15 @@
     "title": "RUDRANSH KUMAR SAH",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:51:53.201"
   },
   {
     "code": "JUUG25BTECH28288",
@@ -15138,13 +16943,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:37:17.975"
+    "timestamp": "2025-08-09T11:48:23.950"
   },
   {
     "code": "JUUG25BTECH28303",
@@ -15191,8 +16998,15 @@
     "title": "TUIBAA ALTAF BHAT",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:43.454"
   },
   {
     "code": "JUUG25BTECH28399",
@@ -15212,13 +17026,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:43:13.622"
+    "timestamp": "2025-08-09T11:26:27.520"
   },
   {
     "code": "JUUG25BTECH28428",
@@ -15270,13 +17086,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:44:30.871"
+    "timestamp": "2025-08-09T11:45:12.037"
   },
   {
     "code": "JUUG25BTECH28516",
@@ -15288,13 +17106,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:06:21.738"
+    "timestamp": "2025-08-09T11:32:14.063"
   },
   {
     "code": "JUUG25BTECH28521",
@@ -15327,10 +17147,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:32:59.101"
+    "timestamp": "2025-08-09T11:20:22.537"
   },
   {
     "code": "JUUG25BTECH28648",
@@ -15358,13 +17182,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:40:03.120"
+    "timestamp": "2025-08-09T11:34:48.099"
   },
   {
     "code": "JUUG25BTECH28671",
@@ -15416,13 +17242,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:50:00.928"
+    "timestamp": "2025-08-09T11:35:37.613"
   },
   {
     "code": "JUUG25BTECH28713",
@@ -15434,13 +17262,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:51:26.293"
+    "timestamp": "2025-08-09T11:45:04.814"
   },
   {
     "code": "JUUG25BTECH28717",
@@ -15452,13 +17282,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:40:06.588"
+    "timestamp": "2025-08-09T11:22:30.444"
   },
   {
     "code": "JUUG25BTECH28745",
@@ -15473,8 +17305,12 @@
     "title": "DHRUV KESHRI",
     "subtitle": "CSE-CSBS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:31:16.019"
   },
   {
     "code": "JUUG25BTECH28784",
@@ -15494,13 +17330,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:57:05.338"
+    "timestamp": "2025-08-09T11:46:53.855"
   },
   {
     "code": "JUUG25BTECH28804",
@@ -15512,13 +17350,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:48:18.739"
+    "timestamp": "2025-08-09T11:48:11.288"
   },
   {
     "code": "JUUG25BTECH28807",
@@ -15545,8 +17385,15 @@
     "title": "ATTANTI RAMNIVAS ",
     "subtitle": "CSE-CSBS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:43:28.350"
   },
   {
     "code": "JUUG25BTECH28918",
@@ -15558,13 +17405,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:42:56.185"
+    "timestamp": "2025-08-09T11:25:51.922"
   },
   {
     "code": "JUUG25BTECH28940",
@@ -15595,8 +17444,15 @@
     "title": "ANSHIKA VARMA",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:46.933"
   },
   {
     "code": "JUUG25BTECH28999",
@@ -15623,6 +17479,18 @@
     "timestamp": "2025-08-07T11:00:36.275"
   },
   {
+    "code": "JUUG25BTECH29061",
+    "title": "SUBHRAJIT ROY CHOWDHURY",
+    "subtitle": "CSE-CTIS",
+    "extras": [],
+    "scanned": {
+      "Noon": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:32:08.462"
+  },
+  {
     "code": "JUUG25BTECH29102",
     "title": "TINKU KRISHNA A R",
     "subtitle": "CSE-CSBS",
@@ -15632,13 +17500,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:47:36.620"
+    "timestamp": "2025-08-09T11:45:18.164"
   },
   {
     "code": "JUUG25BTECH29109",
@@ -15653,8 +17523,18 @@
     "title": "Amiket Kumar",
     "subtitle": "CSE-BCT",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T12:27:29.646"
+    "scanned": {
+      "Afternoon": [
+        1
+      ],
+      "Noon": [
+        1
+      ],
+      "Morning": [
+        1
+      ]
+    },
+    "timestamp": "2025-08-07T15:20:54.414"
   },
   {
     "code": "JUUG25BTECH29136",
@@ -15693,8 +17573,15 @@
     "title": "ADITYA RAJ",
     "subtitle": "CSE - SE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:39:55.903"
   },
   {
     "code": "JUUG25BTECH29273",
@@ -15738,13 +17625,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:59:36.928"
+    "timestamp": "2025-08-09T11:46:26.001"
   },
   {
     "code": "JUUG25BTECH29369",
@@ -15756,21 +17645,27 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:49:23.643"
+    "timestamp": "2025-08-09T11:26:40.492"
   },
   {
     "code": "JUUG25BTECH29373",
     "title": "Navin Vilochan",
     "subtitle": "CSE-CPS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:52:38.743"
   },
   {
     "code": "JUUG25BTECH29390",
@@ -15803,8 +17698,15 @@
     "title": "AMULYA",
     "subtitle": "CSE-DS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:21:15.441"
   },
   {
     "code": "JUUG25BTECH29579",
@@ -15816,29 +17718,45 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:59:30.047"
+    "timestamp": "2025-08-09T11:45:44.201"
   },
   {
     "code": "JUUG25BTECH29635",
     "title": "GAURAV KEDIA",
     "subtitle": "CSE-CSBS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:46:37.543"
   },
   {
     "code": "JUUG25BTECH29833",
     "title": "DORSHALA NANDINI",
     "subtitle": "CSE - SE",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T11:00:36.275"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:30:22.739"
   },
   {
     "code": "JUUG25BTECH30004",
@@ -15863,10 +17781,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:30:53.153"
+    "timestamp": "2025-08-09T11:46:33.764"
   },
   {
     "code": "JUUG25BTECH30071",
@@ -15878,13 +17800,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:46:09.184"
+    "timestamp": "2025-08-09T11:25:39.909"
   },
   {
     "code": "JUUG25BTECH30221",
@@ -15893,10 +17817,14 @@
     "extras": [],
     "scanned": {
       "Noon": [
-        1
+        1,
+        3
+      ],
+      "Morning": [
+        3
       ]
     },
-    "timestamp": "2025-08-07T11:35:29.414"
+    "timestamp": "2025-08-09T11:47:21.767"
   },
   {
     "code": "JUUG25BTECH30303",
@@ -15916,13 +17844,15 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:38:43.417"
+    "timestamp": "2025-08-09T11:28:25.609"
   },
   {
     "code": "JUUGI202511595",
@@ -15934,21 +17864,30 @@
         1
       ],
       "Noon": [
-        1
+        1,
+        3
       ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T14:10:54.240"
+    "timestamp": "2025-08-09T11:27:40.247"
   },
   {
     "code": "JUUGJ202511917",
     "title": "RISHABH SINDHU RANJITH",
     "subtitle": "CSE-CSBS",
     "extras": [],
-    "scanned": {},
-    "timestamp": "2025-08-07T12:27:29.646"
+    "scanned": {
+      "Noon": [
+        3
+      ],
+      "Morning": [
+        3
+      ]
+    },
+    "timestamp": "2025-08-09T11:28:54.187"
   },
   {
     "code": "JUUGZEBTECH30004",
@@ -15967,10 +17906,30 @@
       "Afternoon": [
         1
       ],
+      "Noon": [
+        3
+      ],
       "Morning": [
-        1
+        1,
+        3
       ]
     },
-    "timestamp": "2025-08-07T13:39:39.899"
+    "timestamp": "2025-08-09T11:27:56.897"
+  },
+  {
+    "code": "JUUG25BTECH25761",
+    "title": "SHEIKH HUZAIFA",
+    "subtitle": "CSE-CPS",
+    "extras": [],
+    "scanned": {},
+    "timestamp": "2025-08-09T12:20:10.552556"
+  },
+  {
+    "code": "JUUGI202511988",
+    "title": "RITESH SIGDEL",
+    "subtitle": "CSE-AI",
+    "extras": [],
+    "scanned": {},
+    "timestamp": "2025-08-09T12:21:44.275102"
   }
 ]
