@@ -1,34 +1,33 @@
 'use client';
 
-import { 
-  TrendingUp, 
-  TrendingDown, 
-  Users, 
-  UserCheck, 
-  UserX, 
-  Calendar,
-  Target,
+import {
   Activity,
   AlertCircle,
-  CheckCircle2
+  Calendar,
+  CheckCircle2,
+  Target,
+  TrendingDown,
+  TrendingUp,
+  UserCheck,
+  UserX
 } from 'lucide-react';
 import {
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,
-  BarChart,
-  Bar,
-  PieChart,
-  Pie,
-  Cell,
+  Area,
   AreaChart,
-  Area
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Cell,
+  Line,
+  LineChart,
+  Pie,
+  PieChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis
 } from 'recharts';
-import { RetentionAnalytics, GrowthMetrics } from '../utils/attendance';
+import { GrowthMetrics, RetentionAnalytics } from '../utils/attendance';
 
 interface RetentionAnalyticsProps {
   retentionData: RetentionAnalytics;
@@ -108,14 +107,20 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
             <div>
               <p className="text-blue-600 text-sm font-medium">Peak Retention Day</p>
               <p className="text-3xl font-bold text-blue-700">
-                Day {retentionData.progressiveRetention.reduce((max, item) => 
-                  item.cumulativeRetention > max.cumulativeRetention ? item : max
-                ).day}
+                {retentionData.progressiveRetention.length > 0 ? (
+                  `Day ${retentionData.progressiveRetention.reduce((max, item) =>
+                    item.cumulativeRetention > max.cumulativeRetention ? item : max,
+                    retentionData.progressiveRetention[0]
+                  ).day}`
+                ) : 'N/A'}
               </p>
               <p className="text-blue-600 text-sm mt-1">
-                {Math.round(retentionData.progressiveRetention.reduce((max, item) => 
-                  item.cumulativeRetention > max.cumulativeRetention ? item : max
-                ).cumulativeRetention * 10) / 10}% retention
+                {retentionData.progressiveRetention.length > 0 ? (
+                  `${Math.round(retentionData.progressiveRetention.reduce((max, item) =>
+                    item.cumulativeRetention > max.cumulativeRetention ? item : max,
+                    retentionData.progressiveRetention[0]
+                  ).cumulativeRetention * 10) / 10}% retention`
+                ) : 'No data'}
               </p>
             </div>
             <div className="bg-blue-500 p-3 rounded-full">
@@ -129,8 +134,10 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
             <div>
               <p className="text-purple-600 text-sm font-medium">Average Daily Growth</p>
               <p className="text-3xl font-bold text-purple-700">
-                {Math.round((growthData.dailyGrowth.reduce((sum, item) => sum + item.newAttendees, 0) / 
-                  Math.max(1, growthData.dailyGrowth.length)) * 10) / 10}
+                {growthData.dailyGrowth.length > 0 ? (
+                  Math.round((growthData.dailyGrowth.reduce((sum, item) => sum + item.newAttendees, 0) /
+                    Math.max(1, growthData.dailyGrowth.length)) * 10) / 10
+                ) : 0}
               </p>
               <p className="text-purple-600 text-sm mt-1">new attendees/day</p>
             </div>
@@ -195,14 +202,14 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="day" />
               <YAxis domain={[0, 100]} />
-              <Tooltip 
+              <Tooltip
                 formatter={(value, name) => [`${value}%`, 'Retention Rate']}
                 labelFormatter={(label) => `${label}`}
               />
-              <Area 
-                type="monotone" 
-                dataKey="retention" 
-                stroke="#10b981" 
+              <Area
+                type="monotone"
+                dataKey="retention"
+                stroke="#10b981"
                 fill="#10b981"
                 fillOpacity={0.3}
               />
@@ -221,7 +228,7 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="session" />
               <YAxis domain={[0, 100]} />
-              <Tooltip 
+              <Tooltip
                 formatter={(value, name) => [`${value}%`, 'Retention Rate']}
                 labelFormatter={(label) => `${label} Session`}
               />
@@ -241,14 +248,14 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="day" />
               <YAxis domain={[0, 100]} />
-              <Tooltip 
+              <Tooltip
                 formatter={(value, name) => [`${value}%`, 'Retention Rate']}
                 labelFormatter={(label) => label}
               />
-              <Line 
-                type="monotone" 
-                dataKey="retention" 
-                stroke="#3b82f6" 
+              <Line
+                type="monotone"
+                dataKey="retention"
+                stroke="#3b82f6"
                 strokeWidth={3}
                 dot={{ fill: '#3b82f6', strokeWidth: 2, r: 4 }}
               />
@@ -267,51 +274,62 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
           <div className="bg-white p-4 rounded-lg border border-blue-100">
             <p className="text-sm font-medium text-gray-700 mb-2">Best Performing Session</p>
             <p className="text-lg font-bold text-blue-600">
-              {Object.entries(retentionData.retentionBySession).reduce((max, [session, data]) => 
-                data.retentionRate > max.rate ? { session, rate: data.retentionRate } : max,
-                { session: '', rate: 0 }
-              ).session.charAt(0).toUpperCase() + Object.entries(retentionData.retentionBySession).reduce((max, [session, data]) => 
-                data.retentionRate > max.rate ? { session, rate: data.retentionRate } : max,
-                { session: '', rate: 0 }
-              ).session.slice(1)}
+              {Object.keys(retentionData.retentionBySession).length > 0 ? (
+                (() => {
+                  const bestSession = Object.entries(retentionData.retentionBySession).reduce((max, [session, data]) =>
+                    data.retentionRate > max.rate ? { session, rate: data.retentionRate } : max,
+                    { session: '', rate: -1 }
+                  );
+                  return bestSession.session.charAt(0).toUpperCase() + bestSession.session.slice(1);
+                })()
+              ) : 'N/A'}
             </p>
             <p className="text-sm text-gray-600">
-              {Math.round(Object.entries(retentionData.retentionBySession).reduce((max, [session, data]) => 
-                data.retentionRate > max.rate ? { session, rate: data.retentionRate } : max,
-                { session: '', rate: 0 }
-              ).rate * 10) / 10}% retention rate
+              {Object.keys(retentionData.retentionBySession).length > 0 ? (
+                `${Math.round(Object.entries(retentionData.retentionBySession).reduce((max, [session, data]) =>
+                  data.retentionRate > max.rate ? { session, rate: data.retentionRate } : max,
+                  { session: '', rate: -1 }
+                ).rate * 10) / 10}% retention rate`
+              ) : 'No session data'}
             </p>
           </div>
-          
+
           <div className="bg-white p-4 rounded-lg border border-blue-100">
             <p className="text-sm font-medium text-gray-700 mb-2">Improvement Opportunity</p>
             <p className="text-lg font-bold text-orange-600">
-              {retentionData.absenteeRate > 30 ? 'High Absenteeism' : 
-               retentionData.absenteeRate > 15 ? 'Moderate Absenteeism' : 'Low Absenteeism'}
+              {retentionData.absenteeRate > 30 ? 'High Absenteeism' :
+                retentionData.absenteeRate > 15 ? 'Moderate Absenteeism' : 'Low Absenteeism'}
             </p>
             <p className="text-sm text-gray-600">
               Focus on engaging {retentionData.totalAbsent} absent students
             </p>
           </div>
-          
+
           <div className="bg-white p-4 rounded-lg border border-blue-100">
             <p className="text-sm font-medium text-gray-700 mb-2">Trend Direction</p>
             <p className="text-lg font-bold text-green-600 flex items-center">
-              {retentionData.progressiveRetention[retentionData.progressiveRetention.length - 1]?.cumulativeRetention > 
-               retentionData.progressiveRetention[0]?.cumulativeRetention ? (
-                <>
-                  <TrendingUp className="h-4 w-4 mr-1" />
-                  Improving
-                </>
+              {retentionData.progressiveRetention.length > 1 ? (
+                retentionData.progressiveRetention[retentionData.progressiveRetention.length - 1]?.cumulativeRetention >
+                  retentionData.progressiveRetention[0]?.cumulativeRetention ? (
+                  <>
+                    <TrendingUp className="h-4 w-4 mr-1" />
+                    Improving
+                  </>
+                ) : (
+                  <>
+                    <TrendingDown className="h-4 w-4 mr-1" />
+                    Declining
+                  </>
+                )
               ) : (
                 <>
-                  <TrendingDown className="h-4 w-4 mr-1" />
-                  Declining
+                  <Activity className="h-4 w-4 mr-1" />
+                  Insufficient Data
                 </>
               )}
             </p>
             <p className="text-sm text-gray-600">
-              Retention trend over time
+              {retentionData.progressiveRetention.length > 1 ? 'Retention trend over time' : 'Need more data points'}
             </p>
           </div>
         </div>
