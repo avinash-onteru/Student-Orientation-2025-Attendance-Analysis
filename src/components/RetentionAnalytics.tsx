@@ -34,7 +34,25 @@ interface RetentionAnalyticsProps {
   growthData: GrowthMetrics;
 }
 
-const COLORS = ['#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#06b6d4', '#f97316'];
+// Custom tooltip component for dark mode
+const CustomTooltip = ({ active, payload, label }: any) => {
+  if (active && payload && payload.length) {
+    return (
+      <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg p-3">
+        {label && <p className="text-gray-900 dark:text-gray-100 font-medium">{label}</p>}
+        {payload.map((entry: any, index: number) => (
+          <p key={index} className="text-gray-700 dark:text-gray-300">
+            <span style={{ color: entry.color }}>{entry.name || entry.dataKey}: </span>
+            {entry.value}
+            {entry.name === 'Retention Rate' && '%'}
+            {entry.name?.includes('students') || entry.dataKey === 'value' ? ' students' : ''}
+          </p>
+        ))}
+      </div>
+    );
+  }
+  return null;
+};
 
 export default function RetentionAnalyticsComponent({ retentionData, growthData }: RetentionAnalyticsProps) {
   // Prepare chart data
@@ -176,7 +194,7 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
                   <Cell key={`cell-${index}`} fill={entry.color} />
                 ))}
               </Pie>
-              <Tooltip formatter={(value, name) => [`${value} students`, `${name}`]} />
+              <Tooltip content={<CustomTooltip />} />
             </PieChart>
           </ResponsiveContainer>
           <div className="flex justify-center mt-4 space-x-6">
@@ -199,19 +217,17 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
           </h3>
           <ResponsiveContainer width="100%" height={300}>
             <AreaChart data={progressiveRetentionData}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="day" />
-              <YAxis domain={[0, 100]} />
-              <Tooltip
-                formatter={(value, name) => [`${value}%`, 'Retention Rate']}
-                labelFormatter={(label) => `${label}`}
-              />
+              <CartesianGrid strokeDasharray="3 3" stroke="#374151" strokeOpacity={0.3} />
+              <XAxis dataKey="day" tick={{ fill: 'currentColor' }} />
+              <YAxis domain={[0, 100]} tick={{ fill: 'currentColor' }} />
+              <Tooltip content={<CustomTooltip />} />
               <Area
                 type="monotone"
                 dataKey="retention"
                 stroke="#10b981"
                 fill="#10b981"
                 fillOpacity={0.3}
+                name="Retention Rate"
               />
             </AreaChart>
           </ResponsiveContainer>
@@ -225,14 +241,11 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
           </h3>
           <ResponsiveContainer width="100%" height={300}>
             <BarChart data={sessionRetentionData}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="session" />
-              <YAxis domain={[0, 100]} />
-              <Tooltip
-                formatter={(value, name) => [`${value}%`, 'Retention Rate']}
-                labelFormatter={(label) => `${label} Session`}
-              />
-              <Bar dataKey="retention" fill="#f59e0b" radius={[4, 4, 0, 0]} />
+              <CartesianGrid strokeDasharray="3 3" stroke="#374151" strokeOpacity={0.3} />
+              <XAxis dataKey="session" tick={{ fill: 'currentColor' }} />
+              <YAxis domain={[0, 100]} tick={{ fill: 'currentColor' }} />
+              <Tooltip content={<CustomTooltip />} />
+              <Bar dataKey="retention" fill="#f59e0b" radius={[4, 4, 0, 0]} name="Retention Rate" />
             </BarChart>
           </ResponsiveContainer>
         </div>
@@ -245,19 +258,17 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
           </h3>
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={dayRetentionData}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="day" />
-              <YAxis domain={[0, 100]} />
-              <Tooltip
-                formatter={(value, name) => [`${value}%`, 'Retention Rate']}
-                labelFormatter={(label) => label}
-              />
+              <CartesianGrid strokeDasharray="3 3" stroke="#374151" strokeOpacity={0.3} />
+              <XAxis dataKey="day" tick={{ fill: 'currentColor' }} />
+              <YAxis domain={[0, 100]} tick={{ fill: 'currentColor' }} />
+              <Tooltip content={<CustomTooltip />} />
               <Line
                 type="monotone"
                 dataKey="retention"
                 stroke="#3b82f6"
                 strokeWidth={3}
                 dot={{ fill: '#3b82f6', strokeWidth: 2, r: 4 }}
+                name="Retention Rate"
               />
             </LineChart>
           </ResponsiveContainer>

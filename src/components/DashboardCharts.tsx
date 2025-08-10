@@ -22,6 +22,27 @@ interface DashboardChartsProps {
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8', '#82CA9D'];
 
+// Custom tooltip component for dark mode
+const CustomTooltip = ({ active, payload, label }: any) => {
+  if (active && payload && payload.length) {
+    return (
+      <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg p-3">
+        {label && <p className="text-gray-900 dark:text-gray-100 font-medium">{label}</p>}
+        {payload.map((entry: any, index: number) => (
+          <p key={index} className="text-gray-700 dark:text-gray-300">
+            <span style={{ color: entry.color }}>{entry.name || entry.dataKey}: </span>
+            {entry.value}
+            {entry.payload?.fullName && entry.payload.fullName !== entry.payload.name && 
+              ` (${entry.payload.fullName})`
+            }
+          </p>
+        ))}
+      </div>
+    );
+  }
+  return null;
+};
+
 export default function DashboardCharts({ stats }: DashboardChartsProps) {
   // Prepare data for charts
   const branchData = Object.entries(stats.byBranch).map(([branch, count]) => ({
@@ -67,7 +88,7 @@ export default function DashboardCharts({ stats }: DashboardChartsProps) {
                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
               ))}
             </Pie>
-            <Tooltip formatter={(value, name) => [`${value} students`, name]} />
+            <Tooltip content={<CustomTooltip />} />
           </PieChart>
         </ResponsiveContainer>
         {/* Legend for small segments */}
@@ -91,10 +112,10 @@ export default function DashboardCharts({ stats }: DashboardChartsProps) {
         <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Attendance by Session</h3>
         <ResponsiveContainer width="100%" height={300}>
           <BarChart data={sessionData}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="name" />
-            <YAxis />
-            <Tooltip formatter={(value, name, props) => [value, props.payload.fullName]} />
+            <CartesianGrid strokeDasharray="3 3" stroke="grey" strokeOpacity={0.5} />
+            <XAxis dataKey="name" tick={{ fill: 'currentColor' }} />
+            <YAxis tick={{ fill: 'currentColor' }} />
+            <Tooltip content={<CustomTooltip />} />
             <Bar dataKey="value" fill="#10b981" />
           </BarChart>
         </ResponsiveContainer>
@@ -105,10 +126,10 @@ export default function DashboardCharts({ stats }: DashboardChartsProps) {
         <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Attendance by Day</h3>
         <ResponsiveContainer width="100%" height={300}>
           <BarChart data={dayData}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="day" />
-            <YAxis />
-            <Tooltip />
+            <CartesianGrid strokeDasharray="3 3" stroke="grey" strokeOpacity={0.5} />
+            <XAxis dataKey="day" tick={{ fill: 'currentColor' }} />
+            <YAxis tick={{ fill: 'currentColor' }} />
+            <Tooltip content={<CustomTooltip />} />
             <Bar dataKey="count" stroke="#8884d8" fill="#8884d8" />
           </BarChart>
         </ResponsiveContainer>

@@ -19,7 +19,7 @@ import DashboardCharts from '@/components/DashboardCharts';
 import AttendanceFilters from '@/components/AttendanceFilters';
 import StatsSummary from '@/components/StatsSummary';
 import RetentionAnalyticsComponent from '@/components/RetentionAnalytics';
-import { Download, FileText, BarChart3, TrendingUp, Wifi, WifiOff } from 'lucide-react';
+import { Download, FileText, BarChart3, TrendingUp, Wifi, WifiOff, Moon, Sun } from 'lucide-react';
 
 export default function Home() {
   const { attendanceData, loading, error, isRealTime } = useAttendanceData();
@@ -47,6 +47,45 @@ export default function Home() {
   });
   const [filters, setFilters] = useState<FilterOptions>({ showScannedOnly: false });
   const [activeTab, setActiveTab] = useState<'overview' | 'analytics'>('overview');
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  // Check for stored theme preference or system preference on mount
+  useEffect(() => {
+    // Check if there's a stored preference
+    const storedTheme = localStorage.getItem('theme');
+    let isDark = false;
+    
+    if (storedTheme) {
+      isDark = storedTheme === 'dark';
+    } else {
+      // Fall back to system preference
+      isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+    
+    setIsDarkMode(isDark);
+    
+    // Apply the theme to html element
+    if (isDark) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    const newDarkMode = !isDarkMode;
+    setIsDarkMode(newDarkMode);
+    
+    // Store preference in localStorage
+    localStorage.setItem('theme', newDarkMode ? 'dark' : 'light');
+    
+    // Toggle the dark class on html element
+    if (newDarkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  };
 
   // Initialize filtered data when attendance data loads
   useEffect(() => {
@@ -167,34 +206,46 @@ export default function Home() {
       {/* Tab Navigation */}
       <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="flex space-x-8">
+          <div className="flex justify-between items-center">
+            <nav className="flex space-x-8">
+              <button
+                onClick={() => setActiveTab('overview')}
+                className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+                  activeTab === 'overview'
+                    ? 'border-blue-500 text-blue-600 dark:text-blue-400'
+                    : 'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600'
+                }`}
+              >
+                <div className="flex items-center space-x-2">
+                  <BarChart3 className="h-4 w-4" />
+                  <span>Overview & Charts</span>
+                </div>
+              </button>
+              <button
+                onClick={() => setActiveTab('analytics')}
+                className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
+                  activeTab === 'analytics'
+                    ? 'border-blue-500 text-blue-600 dark:text-blue-400'
+                    : 'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600'
+                }`}
+              >
+                <div className="flex items-center space-x-2">
+                  <TrendingUp className="h-4 w-4" />
+                  <span>Retention & Growth Analytics</span>
+                </div>
+              </button>
+            </nav>
             <button
-              onClick={() => setActiveTab('overview')}
-              className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
-                activeTab === 'overview'
-                  ? 'border-blue-500 text-blue-600 dark:text-blue-400'
-                  : 'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600'
-              }`}
+              onClick={toggleTheme}
+              className="flex items-center space-x-2 px-3 py-2 text-sm bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-600 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+              title={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
             >
-              <div className="flex items-center space-x-2">
-                <BarChart3 className="h-4 w-4" />
-                <span>Overview & Charts</span>
-              </div>
+              {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+              <span className="hidden sm:inline">
+                {isDarkMode ? 'Light' : 'Dark'}
+              </span>
             </button>
-            <button
-              onClick={() => setActiveTab('analytics')}
-              className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
-                activeTab === 'analytics'
-                  ? 'border-blue-500 text-blue-600 dark:text-blue-400'
-                  : 'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600'
-              }`}
-            >
-              <div className="flex items-center space-x-2">
-                <TrendingUp className="h-4 w-4" />
-                <span>Retention & Growth Analytics</span>
-              </div>
-            </button>
-          </nav>
+          </div>
         </div>
       </div>
 
