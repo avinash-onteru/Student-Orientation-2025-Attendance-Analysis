@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { AttendanceRecord, AttendanceStats, FilterOptions } from '@/types/attendance';
+import { useAttendanceData } from '@/hooks/useAttendanceData';
 import {
   processAttendanceData,
   filterAttendanceData,
@@ -18,10 +19,10 @@ import DashboardCharts from '@/components/DashboardCharts';
 import AttendanceFilters from '@/components/AttendanceFilters';
 import StatsSummary from '@/components/StatsSummary';
 import RetentionAnalyticsComponent from '@/components/RetentionAnalytics';
-import { Download, FileText, BarChart3, TrendingUp } from 'lucide-react';
+import { Download, FileText, BarChart3, TrendingUp, Wifi, WifiOff } from 'lucide-react';
 
 export default function Home() {
-  const [attendanceData, setAttendanceData] = useState<AttendanceRecord[]>([]);
+  const { attendanceData, loading, error, isRealTime } = useAttendanceData();
   const [filteredData, setFilteredData] = useState<AttendanceRecord[]>([]);
   const [stats, setStats] = useState<AttendanceStats>({
     total: 0,
@@ -45,31 +46,17 @@ export default function Home() {
     sessionGrowth: {},
   });
   const [filters, setFilters] = useState<FilterOptions>({ showScannedOnly: false });
-  const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<'overview' | 'analytics'>('overview');
 
-  // Load attendance data
+  // Initialize filtered data when attendance data loads
   useEffect(() => {
-    const loadData = async () => {
-      try {
-        const response = await fetch('/api/attendance');
-        const rawData = await response.json();
-        
-        // Use the raw data directly - no need for sample data generation
-        setAttendanceData(rawData);
-        setFilteredData(rawData);
-        setStats(processAttendanceData(rawData));
-        setRetentionAnalytics(calculateRetentionAnalytics(rawData));
-        setGrowthMetrics(calculateGrowthMetrics(rawData));
-      } catch (error) {
-        console.error('Error loading attendance data:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadData();
-  }, []);
+    if (attendanceData.length > 0) {
+      setFilteredData(attendanceData);
+      setStats(processAttendanceData(attendanceData));
+      setRetentionAnalytics(calculateRetentionAnalytics(attendanceData));
+      setGrowthMetrics(calculateGrowthMetrics(attendanceData));
+    }
+  }, [attendanceData]);
 
   // Apply filters
   useEffect(() => {
@@ -120,6 +107,22 @@ export default function Home() {
     );
   }
 
+  if (error) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-red-600 text-lg mb-4">Error loading data: {error}</div>
+          <button 
+            onClick={() => window.location.reload()} 
+            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+          >
+            Retry
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -145,6 +148,16 @@ export default function Home() {
               <div className="flex items-center space-x-2 px-4 py-2 bg-green-100 text-green-800 rounded-lg">
                 <FileText className="h-4 w-4" />
                 <span className="font-medium">{stats.total} Total Records</span>
+              </div>
+              <div className={`flex items-center space-x-2 px-4 py-2 rounded-lg ${
+                isRealTime 
+                  ? 'bg-green-100 text-green-800' 
+                  : 'bg-yellow-100 text-yellow-800'
+              }`}>
+                {isRealTime ? <Wifi className="h-4 w-4" /> : <WifiOff className="h-4 w-4" />}
+                <span className="font-medium">
+                  {isRealTime ? 'Live Data' : 'Static Data'}
+                </span>
               </div>
             </div>
           </div>
