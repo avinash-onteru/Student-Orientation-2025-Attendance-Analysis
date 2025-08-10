@@ -98,10 +98,10 @@ export default function Home() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-600 mx-auto"></div>
-          <p className="mt-4 text-lg text-gray-600">Loading attendance data...</p>
+          <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">Loading attendance data...</p>
         </div>
       </div>
     );
@@ -109,7 +109,7 @@ export default function Home() {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
         <div className="text-center">
           <div className="text-red-600 text-lg mb-4">Error loading data: {error}</div>
           <button 
@@ -124,16 +124,16 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b">
+      <header className="bg-white dark:bg-gray-800 shadow-sm border-b dark:border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-3xl font-bold text-gray-900">
+              <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
                 Student Orientation 2025 Attendance Report
               </h1>
-              <p className="mt-1 text-sm text-gray-500">
+              <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
                 Comprehensive attendance tracking and analytics
               </p>
             </div>
@@ -145,14 +145,14 @@ export default function Home() {
                 <Download className="h-4 w-4" />
                 <span>Export Report</span>
               </button>
-              <div className="flex items-center space-x-2 px-4 py-2 bg-green-100 text-green-800 rounded-lg">
+              <div className="flex items-center space-x-2 px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded-lg">
                 <FileText className="h-4 w-4" />
-                <span className="font-medium">{stats.total} Total Records</span>
+                <span className="font-medium">{attendanceData.length} Total Records</span>
               </div>
               <div className={`flex items-center space-x-2 px-4 py-2 rounded-lg ${
                 isRealTime 
-                  ? 'bg-green-100 text-green-800' 
-                  : 'bg-yellow-100 text-yellow-800'
+                  ? 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300' 
+                  : 'bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300'
               }`}>
                 {isRealTime ? <Wifi className="h-4 w-4" /> : <WifiOff className="h-4 w-4" />}
                 <span className="font-medium">
@@ -165,15 +165,15 @@ export default function Home() {
       </header>
 
       {/* Tab Navigation */}
-      <div className="bg-white border-b border-gray-200">
+      <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex space-x-8">
             <button
               onClick={() => setActiveTab('overview')}
               className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
                 activeTab === 'overview'
-                  ? 'border-blue-500 text-blue-600'
-                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                  ? 'border-blue-500 text-blue-600 dark:text-blue-400'
+                  : 'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600'
               }`}
             >
               <div className="flex items-center space-x-2">
@@ -185,8 +185,8 @@ export default function Home() {
               onClick={() => setActiveTab('analytics')}
               className={`py-4 px-1 border-b-2 font-medium text-sm transition-colors ${
                 activeTab === 'analytics'
-                  ? 'border-blue-500 text-blue-600'
-                  : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                  ? 'border-blue-500 text-blue-600 dark:text-blue-400'
+                  : 'border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600'
               }`}
             >
               <div className="flex items-center space-x-2">
@@ -235,33 +235,33 @@ export default function Home() {
         )}
 
         {/* Additional Details - Show on both tabs */}
-        <div className="mt-8 bg-white p-6 rounded-lg shadow-lg">
-          <h3 className="text-lg font-semibold mb-4">Detailed Breakdown</h3>
+        <div className="mt-8 bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+          <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Detailed Breakdown</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h4 className="font-medium text-gray-700 mb-2">Top Branches</h4>
+              <h4 className="font-medium text-gray-700 dark:text-gray-300 mb-2">Top Branches</h4>
               <div className="space-y-2">
                 {Object.entries(stats.byBranch)
                   .sort(([, a], [, b]) => (b as number) - (a as number))
                   .slice(0, 5)
                   .map(([branch, count]) => (
                     <div key={branch} className="flex justify-between">
-                      <span className="text-sm text-gray-600">{branch}</span>
-                      <span className="text-sm font-medium">{count} students</span>
+                      <span className="text-sm text-gray-600 dark:text-gray-400">{branch}</span>
+                      <span className="text-sm font-medium text-gray-900 dark:text-white">{count} students</span>
                     </div>
                   ))}
               </div>
             </div>
             <div>
-              <h4 className="font-medium text-gray-700 mb-2">Session Breakdown</h4>
+              <h4 className="font-medium text-gray-700 dark:text-gray-300 mb-2">Session Breakdown</h4>
               <div className="space-y-2">
                 {Object.entries(stats.bySession)
                   .sort(([, a], [, b]) => (b as number) - (a as number))
                   .slice(0, 4)
                   .map(([session, count]) => (
                     <div key={session} className="flex justify-between">
-                      <span className="text-sm text-gray-600 capitalize">{session}</span>
-                      <span className="text-sm font-medium">{count as number} students</span>
+                      <span className="text-sm text-gray-600 dark:text-gray-400 capitalize">{session}</span>
+                      <span className="text-sm font-medium text-gray-900 dark:text-white">{count as number} students</span>
                     </div>
                   ))}
               </div>
@@ -271,9 +271,9 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white border-t mt-12">
+      <footer className="bg-white dark:bg-gray-800 border-t dark:border-gray-700 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="text-center text-sm text-gray-500">
+          <div className="text-center text-sm text-gray-500 dark:text-gray-400">
             <p>Student Orientation 2025 - Attendance Report System</p>
             <p className="mt-1">Generated on {new Date().toLocaleDateString()}</p>
           </div>

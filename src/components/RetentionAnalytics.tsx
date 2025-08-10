@@ -68,45 +68,45 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
     <div className="space-y-8">
       {/* Key Metrics Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div className="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl border border-green-200">
+        <div className="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900/30 dark:to-green-800/30 p-6 rounded-xl border border-green-200 dark:border-green-700">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-green-600 text-sm font-medium">Overall Attendance Rate</p>
-              <p className="text-3xl font-bold text-green-700">
+              <p className="text-green-600 dark:text-green-400 text-sm font-medium">Overall Attendance Rate</p>
+              <p className="text-3xl font-bold text-green-700 dark:text-green-300">
                 {Math.round(retentionData.attendanceRate * 10) / 10}%
               </p>
-              <p className="text-green-600 text-sm mt-1">
+              <p className="text-green-600 dark:text-green-400 text-sm mt-1">
                 {retentionData.totalAttended} of {retentionData.totalRegistered} students
               </p>
             </div>
-            <div className="bg-green-500 p-3 rounded-full">
+            <div className="bg-green-500 dark:bg-green-600 p-3 rounded-full">
               <UserCheck className="h-6 w-6 text-white" />
             </div>
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-xl border border-red-200">
+        <div className="bg-gradient-to-br from-red-50 to-red-100 dark:from-red-900/30 dark:to-red-800/30 p-6 rounded-xl border border-red-200 dark:border-red-700">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-red-600 text-sm font-medium">Absentee Rate</p>
-              <p className="text-3xl font-bold text-red-700">
+              <p className="text-red-600 dark:text-red-400 text-sm font-medium">Absentee Rate</p>
+              <p className="text-3xl font-bold text-red-700 dark:text-red-300">
                 {Math.round(retentionData.absenteeRate * 10) / 10}%
               </p>
-              <p className="text-red-600 text-sm mt-1">
+              <p className="text-red-600 dark:text-red-400 text-sm mt-1">
                 {retentionData.totalAbsent} students absent
               </p>
             </div>
-            <div className="bg-red-500 p-3 rounded-full">
+            <div className="bg-red-500 dark:bg-red-600 p-3 rounded-full">
               <UserX className="h-6 w-6 text-white" />
             </div>
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border border-blue-200">
+        <div className="bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/30 dark:to-blue-800/30 p-6 rounded-xl border border-blue-200 dark:border-blue-700">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-blue-600 text-sm font-medium">Peak Retention Day</p>
-              <p className="text-3xl font-bold text-blue-700">
+              <p className="text-blue-600 dark:text-blue-400 text-sm font-medium">Peak Retention Day</p>
+              <p className="text-3xl font-bold text-blue-700 dark:text-blue-300">
                 {retentionData.progressiveRetention.length > 0 ? (
                   `Day ${retentionData.progressiveRetention.reduce((max, item) =>
                     item.cumulativeRetention > max.cumulativeRetention ? item : max,
@@ -114,7 +114,7 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
                   ).day}`
                 ) : 'N/A'}
               </p>
-              <p className="text-blue-600 text-sm mt-1">
+              <p className="text-blue-600 dark:text-blue-400 text-sm mt-1">
                 {retentionData.progressiveRetention.length > 0 ? (
                   `${Math.round(retentionData.progressiveRetention.reduce((max, item) =>
                     item.cumulativeRetention > max.cumulativeRetention ? item : max,
@@ -123,25 +123,25 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
                 ) : 'No data'}
               </p>
             </div>
-            <div className="bg-blue-500 p-3 rounded-full">
+            <div className="bg-blue-500 dark:bg-blue-600 p-3 rounded-full">
               <Target className="h-6 w-6 text-white" />
             </div>
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl border border-purple-200">
+        <div className="bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/30 dark:to-purple-800/30 p-6 rounded-xl border border-purple-200 dark:border-purple-700">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-purple-600 text-sm font-medium">Average Daily Growth</p>
-              <p className="text-3xl font-bold text-purple-700">
+              <p className="text-purple-600 dark:text-purple-400 text-sm font-medium">Average Daily Growth</p>
+              <p className="text-3xl font-bold text-purple-700 dark:text-purple-300">
                 {growthData.dailyGrowth.length > 0 ? (
                   Math.round((growthData.dailyGrowth.reduce((sum, item) => sum + item.newAttendees, 0) /
                     Math.max(1, growthData.dailyGrowth.length)) * 10) / 10
                 ) : 0}
               </p>
-              <p className="text-purple-600 text-sm mt-1">new attendees/day</p>
+              <p className="text-purple-600 dark:text-purple-400 text-sm mt-1">new attendees/day</p>
             </div>
-            <div className="bg-purple-500 p-3 rounded-full">
+            <div className="bg-purple-500 dark:bg-purple-600 p-3 rounded-full">
               <TrendingUp className="h-6 w-6 text-white" />
             </div>
           </div>
@@ -151,8 +151,8 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
       {/* Charts Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Attendance vs Absence Pie Chart */}
-        <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-          <h3 className="text-xl font-semibold mb-4 text-gray-800 flex items-center">
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700">
+          <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white flex items-center">
             <Activity className="h-5 w-5 mr-2 text-blue-500" />
             Attendance Overview
           </h3>
@@ -182,18 +182,18 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
           <div className="flex justify-center mt-4 space-x-6">
             <div className="flex items-center">
               <div className="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
-              <span className="text-sm text-gray-600">Attended ({retentionData.totalAttended})</span>
+              <span className="text-sm text-gray-600 dark:text-gray-400">Attended ({retentionData.totalAttended})</span>
             </div>
             <div className="flex items-center">
               <div className="w-3 h-3 bg-red-500 rounded-full mr-2"></div>
-              <span className="text-sm text-gray-600">Absent ({retentionData.totalAbsent})</span>
+              <span className="text-sm text-gray-600 dark:text-gray-400">Absent ({retentionData.totalAbsent})</span>
             </div>
           </div>
         </div>
 
         {/* Progressive Retention Chart */}
-        <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-          <h3 className="text-xl font-semibold mb-4 text-gray-800 flex items-center">
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700">
+          <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white flex items-center">
             <TrendingUp className="h-5 w-5 mr-2 text-green-500" />
             Cumulative Retention Trend
           </h3>
@@ -218,8 +218,8 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
         </div>
 
         {/* Session Retention Comparison */}
-        <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-          <h3 className="text-xl font-semibold mb-4 text-gray-800 flex items-center">
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700">
+          <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white flex items-center">
             <Calendar className="h-5 w-5 mr-2 text-orange-500" />
             Retention by Session
           </h3>
@@ -238,8 +238,8 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
         </div>
 
         {/* Daily Retention Breakdown */}
-        <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-          <h3 className="text-xl font-semibold mb-4 text-gray-800 flex items-center">
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700">
+          <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white flex items-center">
             <CheckCircle2 className="h-5 w-5 mr-2 text-blue-500" />
             Daily Retention Rates
           </h3>
@@ -265,15 +265,15 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
       </div>
 
       {/* Insights Section */}
-      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-xl border border-blue-200">
-        <h3 className="text-xl font-semibold mb-4 text-gray-800 flex items-center">
+      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-700 p-6 rounded-xl border border-blue-200 dark:border-gray-600">
+        <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-white flex items-center">
           <AlertCircle className="h-5 w-5 mr-2 text-blue-500" />
           Key Insights
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div className="bg-white p-4 rounded-lg border border-blue-100">
-            <p className="text-sm font-medium text-gray-700 mb-2">Best Performing Session</p>
-            <p className="text-lg font-bold text-blue-600">
+          <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border border-blue-100 dark:border-gray-600">
+            <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Best Performing Session</p>
+            <p className="text-lg font-bold text-blue-600 dark:text-blue-400">
               {Object.keys(retentionData.retentionBySession).length > 0 ? (
                 (() => {
                   const bestSession = Object.entries(retentionData.retentionBySession).reduce((max, [session, data]) =>
@@ -284,7 +284,7 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
                 })()
               ) : 'N/A'}
             </p>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
               {Object.keys(retentionData.retentionBySession).length > 0 ? (
                 `${Math.round(Object.entries(retentionData.retentionBySession).reduce((max, [session, data]) =>
                   data.retentionRate > max.rate ? { session, rate: data.retentionRate } : max,
@@ -294,20 +294,20 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
             </p>
           </div>
 
-          <div className="bg-white p-4 rounded-lg border border-blue-100">
-            <p className="text-sm font-medium text-gray-700 mb-2">Improvement Opportunity</p>
-            <p className="text-lg font-bold text-orange-600">
+          <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border border-blue-100 dark:border-gray-600">
+            <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Improvement Opportunity</p>
+            <p className="text-lg font-bold text-orange-600 dark:text-orange-400">
               {retentionData.absenteeRate > 30 ? 'High Absenteeism' :
                 retentionData.absenteeRate > 15 ? 'Moderate Absenteeism' : 'Low Absenteeism'}
             </p>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
               Focus on engaging {retentionData.totalAbsent} absent students
             </p>
           </div>
 
-          <div className="bg-white p-4 rounded-lg border border-blue-100">
-            <p className="text-sm font-medium text-gray-700 mb-2">Trend Direction</p>
-            <p className="text-lg font-bold text-green-600 flex items-center">
+          <div className="bg-white dark:bg-gray-800 p-4 rounded-lg border border-blue-100 dark:border-gray-600">
+            <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Trend Direction</p>
+            <p className="text-lg font-bold text-green-600 dark:text-green-400 flex items-center">
               {retentionData.progressiveRetention.length > 1 ? (
                 retentionData.progressiveRetention[retentionData.progressiveRetention.length - 1]?.cumulativeRetention >
                   retentionData.progressiveRetention[0]?.cumulativeRetention ? (
@@ -328,7 +328,7 @@ export default function RetentionAnalyticsComponent({ retentionData, growthData 
                 </>
               )}
             </p>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
               {retentionData.progressiveRetention.length > 1 ? 'Retention trend over time' : 'Need more data points'}
             </p>
           </div>

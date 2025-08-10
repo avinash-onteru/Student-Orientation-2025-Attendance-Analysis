@@ -51,12 +51,12 @@ export default function StatsSummary({ stats, scannedCounts }: StatsSummaryProps
       {statsCards.map((card, index) => {
         const IconComponent = card.icon;
         return (
-          <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
+          <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm font-medium text-gray-600">{card.title}</p>
-                <p className="text-3xl font-bold text-gray-900">{card.value}</p>
-                <p className="text-sm text-gray-500">{card.description}</p>
+                <p className="text-sm font-medium text-gray-600 dark:text-gray-400">{card.title}</p>
+                <p className="text-3xl font-bold text-gray-900 dark:text-white">{card.value}</p>
+                <p className="text-sm text-gray-500 dark:text-gray-400">{card.description}</p>
               </div>
               <div className={`${card.color} p-3 rounded-lg`}>
                 <IconComponent className="h-6 w-6 text-white" />

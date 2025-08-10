@@ -45,8 +45,8 @@ export default function DashboardCharts({ stats }: DashboardChartsProps) {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
       {/* Branch Distribution */}
-      <div className="bg-white p-6 rounded-lg shadow-lg">
-        <h3 className="text-lg font-semibold mb-4">Attendance by Branch</h3>
+      <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+        <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Attendance by Branch</h3>
         <ResponsiveContainer width="100%" height={300}>
           <PieChart>
             <Pie
@@ -78,7 +78,7 @@ export default function DashboardCharts({ stats }: DashboardChartsProps) {
                 className="w-3 h-3 rounded-full mr-2" 
                 style={{ backgroundColor: COLORS[index % COLORS.length] }}
               ></div>
-              <span className="text-gray-600 truncate">
+              <span className="text-gray-600 dark:text-gray-400 truncate">
                 {entry.name}: {entry.value} ({((entry.value / branchData.reduce((sum, item) => sum + item.value, 0)) * 100).toFixed(1)}%)
               </span>
             </div>
@@ -87,8 +87,8 @@ export default function DashboardCharts({ stats }: DashboardChartsProps) {
       </div>
 
       {/* Session Distribution */}
-      <div className="bg-white p-6 rounded-lg shadow-lg">
-        <h3 className="text-lg font-semibold mb-4">Attendance by Session</h3>
+      <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+        <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Attendance by Session</h3>
         <ResponsiveContainer width="100%" height={300}>
           <BarChart data={sessionData}>
             <CartesianGrid strokeDasharray="3 3" />
@@ -101,8 +101,8 @@ export default function DashboardCharts({ stats }: DashboardChartsProps) {
       </div>
 
       {/* Day Distribution */}
-      <div className="bg-white p-6 rounded-lg shadow-lg">
-        <h3 className="text-lg font-semibold mb-4">Attendance by Day</h3>
+      <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+        <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Attendance by Day</h3>
         <ResponsiveContainer width="100%" height={300}>
           <BarChart data={dayData}>
             <CartesianGrid strokeDasharray="3 3" />
