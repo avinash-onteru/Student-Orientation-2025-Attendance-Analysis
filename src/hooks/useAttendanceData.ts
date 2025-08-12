@@ -9,6 +9,11 @@ export function useAttendanceData() {
   const [isRealTime, setIsRealTime] = useState(false);
   const unsubscribeRef = useRef<(() => void) | null>(null);
 
+  const setAttendanceDataWithReported = (data: AttendanceRecord[]) => {
+    const filteredData = data.filter(r => r.extras.length > 0 && r.extras[0].value);
+    setAttendanceData(filteredData);
+  };
+
   useEffect(() => {
     let isMounted = true;
 
@@ -24,7 +29,7 @@ export function useAttendanceData() {
         const data = await response.json();
         
         if (isMounted) {
-          setAttendanceData(data);
+          setAttendanceDataWithReported(data);
           
           // Try to establish real-time connection
           try {
@@ -33,7 +38,7 @@ export function useAttendanceData() {
               (realtimeData) => {
                 if (isMounted) {
                   console.log('Real-time data received');
-                  setAttendanceData(realtimeData);
+                  setAttendanceDataWithReported(realtimeData);
                   setIsRealTime(true);
                 }
               },

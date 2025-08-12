@@ -2,7 +2,7 @@ export interface AttendanceRecord {
   code: string;
   title: string;
   subtitle: string;
-  extras: unknown[];
+  extras: [{'key': string, 'value': boolean, 'icon': number}];
   scanned: Record<string, number[]>; // session -> array of days
   timestamp?: string; // Keep for compatibility but not used
 }
